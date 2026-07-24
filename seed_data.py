@@ -123,47 +123,47 @@ SOURCES = [
 
 # component -> {land_use: (2025, 2026, 2027)}
 MV_WATER_DCC = {
-    "Residential Lot Development Unit": (10952, 16926, 19714),
-    "Townhouse Dwelling Unit": (9839, 15206, 17710),
-    "Apartment Dwelling Unit": (6791, 10495, 12223),
-    "Non-Residential (per sq ft)": (5.30, 8.19, 9.54),
+    "Residential Lot Development Unit": (10952, 10952, 15532),
+    "Townhouse Dwelling Unit": (9839, 9839, 13954),
+    "Apartment Dwelling Unit": (6791, 6791, 9630),
+    "Non-Residential (per sq ft)": (5.30, 5.30, 7.51),
 }
 MV_WATER_ASSIST = (0.45, 0.15, 0.01)
 
 # sewerage_area -> {land_use: (2025, 2026, 2027)}
 MV_LIQUID_WASTE_DCC = {
     "Vancouver Sewerage Area (VSA)": {
-        "Residential Lot Development Unit": (10498, 11290, 12476),
-        "Townhouse Dwelling Unit": (9593, 10316, 11400),
-        "Apartment Dwelling Unit": (6298, 6772, 7484),
-        "Non-Residential (per sq ft)": (5.30, 5.70, 6.30),
+        "Residential Lot Development Unit": (10498, 10498, 11553),
+        "Townhouse Dwelling Unit": (9593, 9593, 10557),
+        "Apartment Dwelling Unit": (6298, 6298, 6930),
+        "Non-Residential (per sq ft)": (5.30, 5.30, 5.83),
     },
     "North Shore Sewerage Area (NSSA)": {
-        "Residential Lot Development Unit": (9760, 10478, 11557),
-        "Townhouse Dwelling Unit": (8996, 9658, 10652),
-        "Apartment Dwelling Unit": (6005, 6448, 7111),
-        "Non-Residential (per sq ft)": (5.00, 5.37, 5.92),
+        "Residential Lot Development Unit": (9760, 9760, 10718),
+        "Townhouse Dwelling Unit": (8996, 8996, 9879),
+        "Apartment Dwelling Unit": (6005, 6005, 6595),
+        "Non-Residential (per sq ft)": (5, 5, 5.49),
     },
     "Lulu Island West Sewerage Area (LIWSA)": {
-        "Residential Lot Development Unit": (5683, 6152, 6855),
-        "Townhouse Dwelling Unit": (4927, 5333, 5943),
-        "Apartment Dwelling Unit": (3516, 3806, 4241),
-        "Non-Residential (per sq ft)": (2.55, 2.76, 3.08),
+        "Residential Lot Development Unit": (5683, 5683, 6308),
+        "Townhouse Dwelling Unit": (4927, 4927, 5469),
+        "Apartment Dwelling Unit": (3516, 3516, 3903),
+        "Non-Residential (per sq ft)": (2.55, 2.55, 2.83),
     },
     "Fraser Sewerage Area (FSA)": {
-        "Residential Lot Development Unit": (11443, 12311, 13613),
-        "Townhouse Dwelling Unit": (10015, 10775, 11914),
-        "Apartment Dwelling Unit": (7302, 7855, 8686),
-        "Non-Residential (per sq ft)": (5.41, 5.82, 6.43),
+        "Residential Lot Development Unit": (11443, 11443, 12601),
+        "Townhouse Dwelling Unit": (10015, 10015, 11028),
+        "Apartment Dwelling Unit": (7302, 7302, 8040),
+        "Non-Residential (per sq ft)": (5.41, 5.41, 5.95),
     },
 }
 MV_LW_ASSIST = (0.16, 0.10, 0.01)
 
 MV_PARKLAND_DCC = {
-    "Residential Lot Development Unit": (491, 981, 1943),
-    "Townhouse Dwelling Unit": (442, 884, 1751),
-    "Apartment Dwelling Unit": (303, 606, 1199),
-    "Non-Residential (per sq ft)": (0.24, 0.48, 0.94),
+    "Residential Lot Development Unit": (491, 491, 1237),
+    "Townhouse Dwelling Unit": (442, 442, 1114),
+    "Apartment Dwelling Unit": (303, 303, 763),
+    "Non-Residential (per sq ft)": (0.24, 0.24, 0.60),
 }
 MV_PARKLAND_ASSIST = (0.75, 0.50, 0.01)
 
