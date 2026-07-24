@@ -1,603 +1,97 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Metro Vancouver Development Fees</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;600&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<style>
-:root{
-  --paper:#EDEFF2; --sheet:#F7F8FA; --ink:#1A2028; --ink-2:#4A5560; --ink-3:#77828E;
-  --rule:#C4CAD2; --rule-2:#DDE1E7;
-  --water:#2C6E8F; --sanitary:#4A7C59; --parkland:#8A6A3E;
-  --levy:#3F5A78; --amenity:#6E5480; --transit:#96603C;
-  --alert:#B03A2E; --warn:#B07A2E; --ok:#3E7A52;
-  --disp:'Archivo Narrow',Impact,sans-serif;
-  --body:'Public Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
-  --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
-}
-*{box-sizing:border-box;margin:0;padding:0}
-body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
-.wrap{max-width:1180px;margin:0 auto;padding:0 24px 80px}
+# Set It and Forget It — One-Time Setup Guide
 
-/* ---- titleblock ---- */
-header{border-bottom:2px solid var(--ink);padding:34px 0 0}
-.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
-h1{font-family:var(--disp);font-size:clamp(34px,5.5vw,58px);font-weight:600;letter-spacing:-.01em;line-height:1.02;text-transform:uppercase;margin:6px 0 18px}
-.meta{display:flex;flex-wrap:wrap;gap:0;border-top:1px solid var(--rule);font-family:var(--mono);font-size:11.5px}
-.meta div{padding:9px 18px 9px 0;margin-right:18px;border-right:1px solid var(--rule);color:var(--ink-2)}
-.meta div:last-child{border-right:0}
-.meta b{color:var(--ink);font-weight:500}
+After this setup (about 15 minutes of clicking, no typing code), you get:
 
-/* ---- status strip ---- */
-.strip{margin:0 0 34px;border:1px solid var(--rule);border-left:4px solid var(--ok);background:var(--sheet);padding:14px 18px;display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 22px}
-.strip.due{border-left-color:var(--warn)}
-.strip.over{border-left-color:var(--alert)}
-.strip .hl{font-family:var(--disp);font-size:19px;font-weight:600;text-transform:uppercase;letter-spacing:.01em}
-.strip.due .hl{color:var(--warn)} .strip.over .hl{color:var(--alert)} .strip .hl{color:var(--ok)}
-.strip p{font-size:13.5px;color:var(--ink-2);max-width:64ch}
+- A real web address for your fee tracker, like `yourname.github.io/fee-tracker`
+- Every morning at 7 AM Pacific, a robot checks the news, checks the
+  municipal sites for rate changes, applies the safe ones, and republishes
+  the site — while you sleep
+- You never run Python. You never open a terminal. Ever.
 
-/* ---- layout ---- */
-.grid{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:34px;align-items:start}
-@media(max-width:880px){.grid{grid-template-columns:1fr}}
-section{margin-bottom:46px}
-h2{font-family:var(--disp);font-size:13px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--ink);padding-bottom:7px;border-bottom:1px solid var(--ink);margin-bottom:18px;display:flex;justify-content:space-between;align-items:baseline}
-h2 span{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;color:var(--ink-3);font-weight:400}
+It all runs on GitHub, which is free for this.
 
-/* ---- inputs ---- */
-.field{margin-bottom:15px}
-label{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin-bottom:5px}
-select,input{width:100%;padding:9px 11px;border:1px solid var(--rule);background:var(--sheet);font-family:var(--body);font-size:14.5px;color:var(--ink);border-radius:0}
-select:focus,input:focus{outline:2px solid var(--water);outline-offset:-1px;border-color:var(--water)}
-input[type=number]{font-family:var(--mono)}
-.pair{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.hint{font-size:12px;color:var(--ink-3);margin-top:4px;line-height:1.4}
+---
 
-/* ---- strata (signature) ---- */
-.strata{border:1px solid var(--ink);background:var(--sheet);padding:0;position:relative}
-.strata-head{padding:12px 15px;border-bottom:1px solid var(--ink);display:flex;justify-content:space-between;align-items:baseline}
-.strata-head span{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
-.bands{padding:14px 15px}
-.band{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;margin-bottom:9px}
-.band-bar{height:26px;border:1px solid var(--ink);position:relative;min-width:3px;transition:width .35s cubic-bezier(.4,0,.2,1)}
-.band-label{font-family:var(--mono);font-size:11px;color:var(--ink-2);margin-bottom:3px;display:flex;justify-content:space-between;gap:10px}
-.band-label b{font-weight:500;color:var(--ink)}
-.band-amt{font-family:var(--mono);font-size:12.5px;text-align:right;white-space:nowrap;min-width:82px}
-.total{border-top:2px solid var(--ink);margin-top:4px;padding:13px 15px;display:flex;justify-content:space-between;align-items:baseline}
-.total .lab{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
-.total .amt{font-family:var(--disp);font-size:31px;font-weight:600;letter-spacing:-.01em}
-.perunit{padding:0 15px 13px;font-family:var(--mono);font-size:11.5px;color:var(--ink-3);display:flex;justify-content:space-between}
+## Step 1 — Make a GitHub account (2 min)
 
-/* fill treatments encode provenance */
-.f-verified{background:currentColor}
-.f-proposed{background:repeating-linear-gradient(45deg,currentColor 0 4px,transparent 4px 8px)}
-.f-unverified{background:transparent}
-.f-unverified::after{content:'';position:absolute;inset:0;background:repeating-linear-gradient(90deg,var(--rule) 0 1px,transparent 1px 6px)}
+1. Go to **github.com** and click **Sign up**
+2. Follow the prompts (email, password, username — your username becomes
+   part of your web address, so pick something you don't mind being public)
 
-.legend{border-top:1px solid var(--rule);padding:12px 15px;display:flex;flex-direction:column;gap:7px}
-.legend div{display:flex;align-items:center;gap:9px;font-size:11.5px;color:var(--ink-2)}
-.swatch{width:26px;height:13px;border:1px solid var(--ink);flex:none;color:var(--ink-2);position:relative}
+## Step 2 — Create a home for the files (2 min)
 
-/* ---- table ---- */
-.tools{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:14px}
-.tools select,.tools input{width:auto;flex:1;min-width:150px}
-table{width:100%;border-collapse:collapse;font-size:13.5px}
-th{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);text-align:left;padding:0 10px 7px 0;border-bottom:1px solid var(--rule);font-weight:400;white-space:nowrap}
-td{padding:9px 10px 9px 0;border-bottom:1px solid var(--rule-2);vertical-align:top}
-tbody tr:hover{background:var(--sheet)}
-td.num{font-family:var(--mono);text-align:right;white-space:nowrap;padding-right:16px}
-.pill{display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border:1px solid currentColor;white-space:nowrap}
-.p-force{color:var(--ok)} .p-prop{color:var(--warn)} .p-unver{color:var(--alert)}
-.muni{font-weight:600}
-.sub{font-size:12px;color:var(--ink-3);line-height:1.4;margin-top:2px}
-.empty{padding:26px 0;color:var(--ink-3);font-size:13.5px}
+1. Once signed in, click the **+** in the top-right corner → **New repository**
+2. Repository name: `fee-tracker` (or anything you like)
+3. Leave it on **Public** (required for the free website hosting)
+4. Click **Create repository**
 
-/* ---- tabs ---- */
-.tabs{display:flex;border-bottom:1px solid var(--ink);margin-bottom:18px}
-.tab{font-family:var(--disp);font-size:12.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
- padding:8px 17px;border:0;background:none;cursor:pointer;color:var(--ink-3);
- border-bottom:2px solid transparent;margin-bottom:-1px;display:flex;align-items:center;gap:7px}
-.tab:hover{color:var(--ink-2)}
-.tab[aria-selected=true]{color:var(--ink);border-bottom-color:var(--ink)}
-.tab:focus-visible{outline:2px solid var(--water);outline-offset:-2px}
-.tab .count{font-family:var(--mono);font-size:10px;letter-spacing:0;font-weight:400;
- background:var(--rule-2);color:var(--ink-2);padding:1px 5px;border-radius:2px}
-.tab[aria-selected=true] .count{background:var(--ink);color:var(--sheet)}
-.panel[hidden]{display:none}
-.log-note{font-size:12.5px;color:var(--ink-2);line-height:1.5;max-width:78ch}
-td.when{font-family:var(--mono);font-size:11.5px;color:var(--ink-3);white-space:nowrap}
-.delta{font-family:var(--mono);font-size:12px;white-space:nowrap}
-.delta .from{color:var(--ink-3);text-decoration:line-through}
-.delta .to{color:var(--ink);font-weight:500}
-.p-corrected{color:var(--alert)} .p-new{color:var(--ok)} .p-changed{color:var(--warn)}
-.p-removed{color:var(--alert)} .p-info{color:var(--ink-3)} .p-review{color:var(--warn)}
-.src-url{font-family:var(--mono);font-size:11.5px;color:var(--water);word-break:break-all}
+## Step 3 — Upload the files (3 min)
 
-/* ---- news ---- */
-.news-item{display:grid;grid-template-columns:104px 1fr;gap:20px;padding:17px 0;border-bottom:1px solid var(--rule-2)}
-@media(max-width:600px){.news-item{grid-template-columns:1fr;gap:6px}}
-.news-when{font-family:var(--mono);font-size:11.5px;color:var(--ink-3);line-height:1.6}
-.news-when .tag{display:inline-block;margin-top:5px;font-size:10px;letter-spacing:.08em;text-transform:uppercase;
- border:1px solid var(--rule);padding:1px 6px;color:var(--ink-2)}
-.news-item h3{font-family:var(--body);font-size:16px;font-weight:600;line-height:1.35;margin-bottom:4px}
-.news-item h3 a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--rule)}
-.news-item h3 a:hover{color:var(--water);border-bottom-color:var(--water)}
-.news-item .src{font-family:var(--mono);font-size:11px;color:var(--ink-3);margin-bottom:6px}
-.news-item p{font-size:13.5px;color:var(--ink-2);max-width:78ch}
-.news-affects{margin-top:7px;font-size:12px;color:var(--ink-2)}
-.news-affects b{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;font-weight:400}
-.imp-high b{color:var(--alert)} .imp-medium b{color:var(--warn)} .imp-unreviewed b{color:var(--ink-3)}
-.news-tools{display:flex;gap:10px;margin-bottom:6px;flex-wrap:wrap}
-.news-tools select{width:auto;flex:1;min-width:140px}
+1. On the page that appears, click the link that says
+   **uploading an existing file**
+2. Unzip `fee-tracker.zip` on your computer, then drag **everything inside
+   the unzipped folder** into the upload box — including the `.github`
+   folder if your computer shows it
+3. Click **Commit changes** at the bottom
 
-/* ---- upcoming ---- */
-.timeline{border-top:1px solid var(--rule)}
-.ev{display:grid;grid-template-columns:104px 1fr;gap:20px;padding:15px 0;border-bottom:1px solid var(--rule-2)}
-@media(max-width:600px){.ev{grid-template-columns:1fr;gap:5px}}
-.ev-when{font-family:var(--mono);font-size:11.5px;color:var(--ink-3);line-height:1.5}
-.ev-when b{display:block;font-family:var(--disp);font-size:23px;font-weight:600;color:var(--ink);letter-spacing:-.01em}
-.ev-when.soon b{color:var(--alert)}
-.ev h3{font-family:var(--body);font-size:15px;font-weight:600;margin-bottom:3px}
-.ev p{font-size:13px;color:var(--ink-2);max-width:74ch}
+> **If the `.github` folder didn't upload** (some computers hide folders
+> that start with a dot): in your repository, click **Add file → Create
+> new file**. In the name box type exactly
+> `.github/workflows/update.yml` — the slashes create the folders. Then
+> open `update.yml` from the zip in any text editor (Notepad works),
+> copy everything, paste it in, and click **Commit changes**.
 
-footer{border-top:2px solid var(--ink);padding-top:16px;font-size:12.5px;color:var(--ink-3);line-height:1.6}
-footer a{color:var(--water)}
-.warnbox{border:1px solid var(--alert);border-left:4px solid var(--alert);background:#FBF0EE;padding:12px 15px;margin-top:16px;font-size:13px;color:#6E241B}
-@media(prefers-reduced-motion:reduce){*{transition:none!important}}
-</style>
-</head>
-<body>
-<div class="wrap">
+## Step 4 — Turn on the website (2 min)
 
-<header>
-  <div class="eyebrow">Development finance / Metro Vancouver regional district</div>
-  <h1>Development<br>Fee Register</h1>
-  <div class="meta">
-    <div>Rates verified <b id="m-ver"></b></div>
-    <div>Today <b id="m-today"></b></div>
-    <div><b id="m-rows"></b> rate rows</div>
-    <div><b id="m-src"></b> sources</div>
-  </div>
-</header>
+1. In your repository, click **Settings** (top menu) → **Pages** (left sidebar)
+2. Under "Build and deployment", set **Source** to **Deploy from a branch**
+3. Set **Branch** to `main` and folder to `/ (root)`, click **Save**
+4. Wait a minute or two, refresh the page — a box appears with your live
+   address. That link is your site. Bookmark it, share it.
 
-<div class="strip" id="strip">
-  <div class="hl" id="strip-hl">Checking</div>
-  <p id="strip-msg"></p>
-</div>
+## Step 5 — Turn on the daily robot (2 min)
 
-<div class="grid">
-  <div>
-    <section>
-      <h2>Estimate a project <span>All fees at building permit</span></h2>
-      <div class="pair">
-        <div class="field">
-          <label for="muni">Municipality</label>
-          <select id="muni"></select>
-        </div>
-        <div class="field">
-          <label for="form">Building form</label>
-          <select id="form"></select>
-        </div>
-      </div>
-      <div class="pair">
-        <div class="field">
-          <label for="units">Dwelling units</label>
-          <input type="number" id="units" value="60" min="0">
-        </div>
-        <div class="field">
-          <label for="area">Gross floor area (sq ft)</label>
-          <input type="number" id="area" value="55000" min="0">
-        </div>
-      </div>
-      <div class="pair">
-        <div class="field">
-          <label for="year">Rate year</label>
-          <select id="year"><option>2025</option><option selected>2026</option><option>2027</option></select>
-        </div>
-        <div class="field" id="band-field">
-          <label for="band">Vancouver DCL band</label>
-          <select id="band"></select>
-          <div class="hint">DCL varies 4.3&times; across residential bands.</div>
-        </div>
-      </div>
-      <div id="calc-warn"></div>
-    </section>
+1. Click the **Actions** tab (top menu)
+2. If it asks, click the green button to enable workflows
+3. You'll see **Daily fee tracker update** in the left list. Click it,
+   then click **Run workflow → Run workflow** to test it right now
+4. A yellow dot appears while it runs (~2 minutes), turning into a green
+   check when done. That's a successful update.
 
-    <section>
-      <div class="tabs" role="tablist">
-        <button class="tab" role="tab" id="tab-reg" aria-controls="p-reg" aria-selected="true">Register <span class="count" id="c-reg"></span></button>
-        <button class="tab" role="tab" id="tab-news" aria-controls="p-news" aria-selected="false">News <span class="count" id="c-news"></span></button>
-        <button class="tab" role="tab" id="tab-log" aria-controls="p-log" aria-selected="false">Change log <span class="count" id="c-log"></span></button>
-        <button class="tab" role="tab" id="tab-src" aria-controls="p-src" aria-selected="false">Sources <span class="count" id="c-src"></span></button>
-      </div>
+From now on it runs itself every morning. The green checks and any
+changes will accumulate without you doing anything.
 
-      <div class="panel" id="p-reg" role="tabpanel" aria-labelledby="tab-reg">
-        <div class="tools">
-          <select id="f-muni"><option value="">All municipalities</option></select>
-          <select id="f-status">
-            <option value="">Any status</option>
-            <option value="force">In force only</option>
-            <option value="notforce">Not in force / unverified</option>
-          </select>
-          <input type="search" id="f-text" placeholder="Search program or land use">
-        </div>
-        <table>
-          <thead><tr>
-            <th>Jurisdiction</th><th>Program / land use</th>
-            <th style="text-align:right">Rate</th><th>Status</th><th>Review</th>
-          </tr></thead>
-          <tbody id="tbl"></tbody>
-        </table>
-        <div class="empty" id="tbl-empty" style="display:none">No rows match those filters.</div>
-      </div>
+---
 
-      <div class="panel" id="p-news" role="tabpanel" aria-labelledby="tab-news" hidden>
-        <p class="log-note" style="margin-bottom:13px">Coverage of fee changes across the region, newest first. Summaries are this tracker's own; headlines link to the original story. Items marked <span style="font-family:var(--mono);font-size:11px">UNREVIEWED</span> arrived from the news fetcher and haven't been read yet. Where a story affects a rate in the register, it says so.</p>
-        <div class="news-tools">
-          <select id="n-tag"><option value="">All jurisdictions</option></select>
-          <select id="n-imp">
-            <option value="">Any impact</option>
-            <option value="high">High impact</option>
-            <option value="unreviewed">Unreviewed only</option>
-          </select>
-        </div>
-        <div id="news"></div>
-        <div class="empty" id="news-empty" style="display:none">No stories match. Run fetch_news.py to pull the latest.</div>
-      </div>
+## How you'll know something changed
 
-      <div class="panel" id="p-log" role="tabpanel" aria-labelledby="tab-log" hidden>
-        <p class="log-note" style="margin-bottom:15px">Every rate change and correction, newest first. The scraper appends here on each run; nothing is overwritten silently. A <span class="pill p-corrected">corrected</span> entry means a figure in an earlier version was wrong.</p>
-        <table>
-          <thead><tr>
-            <th>When</th><th>What</th><th>Change</th><th>Type</th>
-          </tr></thead>
-          <tbody id="log"></tbody>
-        </table>
-        <div class="empty" id="log-empty" style="display:none">No entries yet. Run the scraper.</div>
-      </div>
+Just open your site. The banner at the top recolours by itself:
 
-      <div class="panel" id="p-src" role="tabpanel" aria-labelledby="tab-src" hidden>
-        <p class="log-note" style="margin-bottom:15px">Where each rate comes from, and how reliably it can be read automatically. Clean HTML tables parse well; PDF bylaws do not, and those sources report low confidence rather than guessing.</p>
-        <table>
-          <thead><tr>
-            <th>Jurisdiction</th><th>Covers</th><th>Format</th><th>Scrape reliability</th>
-          </tr></thead>
-          <tbody id="src"></tbody>
-        </table>
-      </div>
-    </section>
+- **Green** — all current, nothing due
+- **Amber** — something is scheduled to change within 30 days
+- **Red** — a known update date has passed; treat those rates as suspect
 
-    <section>
-      <h2>Scheduled changes</h2>
-      <div class="timeline" id="timeline"></div>
-    </section>
-  </div>
+The **News** tab fills with new stories as the robot finds them (marked
+UNREVIEWED until you read them). The **Change log** tab records every
+rate the robot changed, with the old and new value — nothing is ever
+changed silently.
 
-  <aside>
-    <div class="strata">
-      <div class="strata-head"><span>Fee stack</span><span id="stack-ctx"></span></div>
-      <div class="bands" id="bands"></div>
-      <div class="total"><span class="lab">Estimated total</span><span class="amt" id="total">&mdash;</span></div>
-      <div class="perunit"><span id="perunit"></span><span id="persf"></span></div>
-      <div class="legend">
-        <div><span class="swatch f-verified"></span> Verified, in force</div>
-        <div><span class="swatch f-proposed"></span> Published, not in force</div>
-        <div><span class="swatch f-unverified"></span> No verified rate loaded</div>
-      </div>
-    </div>
-  </aside>
-</div>
+## What the robot will and won't do
 
-<footer>
-  <p><strong>This is a planning aid, not a fee quote.</strong> Excluded: building permit fees, rezoning / DP / subdivision application fees, utility connection and servicing costs, school site acquisition charges, negotiated CACs, and area-specific DCC overlays. Confirm every figure with the municipality before it reaches a pro forma.</p>
-  <p style="margin-top:10px">Rates trace to primary sources: Metro Vancouver DCC page, City of Vancouver DCL Bulletin, City of Burnaby Development Funding Program, City of Surrey. Refresh with <code style="font-family:var(--mono)">scrape_dev_fees.py</code>, which rewrites <code style="font-family:var(--mono)">fee_data.json</code>.</p>
-</footer>
-</div>
+It **will** update the Metro Vancouver regional rates automatically when
+their official page changes, because those parse reliably and every
+change is logged.
 
-<script>
-const DATA = {"verified": "2026-07-23", "landUses": ["Residential Lot Development Unit", "Townhouse Dwelling Unit", "Apartment Dwelling Unit", "Non-Residential (per sq ft)"], "sewerageAreas": ["Vancouver Sewerage Area (VSA)", "North Shore Sewerage Area (NSSA)", "Lulu Island West Sewerage Area (LIWSA)", "Fraser Sewerage Area (FSA)"], "muniToSewerage": {"Vancouver": "Vancouver Sewerage Area (VSA)", "Burnaby": "Vancouver Sewerage Area (VSA)", "New Westminster": "Fraser Sewerage Area (FSA)", "Surrey": "Fraser Sewerage Area (FSA)", "Coquitlam": "Fraser Sewerage Area (FSA)", "Port Coquitlam": "Fraser Sewerage Area (FSA)", "Port Moody": "Fraser Sewerage Area (FSA)", "Delta": "Fraser Sewerage Area (FSA)", "Langley (City)": "Fraser Sewerage Area (FSA)", "Langley (Township)": "Fraser Sewerage Area (FSA)", "Maple Ridge": "Fraser Sewerage Area (FSA)", "Pitt Meadows": "Fraser Sewerage Area (FSA)", "White Rock": "Fraser Sewerage Area (FSA)", "Richmond": "Lulu Island West Sewerage Area (LIWSA)", "North Vancouver (City)": "North Shore Sewerage Area (NSSA)", "North Vancouver (District)": "North Shore Sewerage Area (NSSA)", "West Vancouver": "North Shore Sewerage Area (NSSA)"}, "water": {"Residential Lot Development Unit": [10952, 16926, 19714], "Townhouse Dwelling Unit": [9839, 15206, 17710], "Apartment Dwelling Unit": [6791, 10495, 12223], "Non-Residential (per sq ft)": [5.3, 8.19, 9.54]}, "liquidWaste": {"Vancouver Sewerage Area (VSA)": {"Residential Lot Development Unit": [10498, 11290, 12476], "Townhouse Dwelling Unit": [9593, 10316, 11400], "Apartment Dwelling Unit": [6298, 6772, 7484], "Non-Residential (per sq ft)": [5.3, 5.7, 6.3]}, "North Shore Sewerage Area (NSSA)": {"Residential Lot Development Unit": [9760, 10478, 11557], "Townhouse Dwelling Unit": [8996, 9658, 10652], "Apartment Dwelling Unit": [6005, 6448, 7111], "Non-Residential (per sq ft)": [5.0, 5.37, 5.92]}, "Lulu Island West Sewerage Area (LIWSA)": {"Residential Lot Development Unit": [5683, 6152, 6855], "Townhouse Dwelling Unit": [4927, 5333, 5943], "Apartment Dwelling Unit": [3516, 3806, 4241], "Non-Residential (per sq ft)": [2.55, 2.76, 3.08]}, "Fraser Sewerage Area (FSA)": {"Residential Lot Development Unit": [11443, 12311, 13613], "Townhouse Dwelling Unit": [10015, 10775, 11914], "Apartment Dwelling Unit": [7302, 7855, 8686], "Non-Residential (per sq ft)": [5.41, 5.82, 6.43]}}, "parkland": {"Residential Lot Development Unit": [491, 981, 1943], "Townhouse Dwelling Unit": [442, 884, 1751], "Apartment Dwelling Unit": [303, 606, 1199], "Non-Residential (per sq ft)": [0.24, 0.48, 0.94]}, "publishedTotal": {"Vancouver Sewerage Area (VSA)": {"Residential Lot Development Unit": [21941, 29196, 34133], "Townhouse Dwelling Unit": [19874, 26406, 30861], "Apartment Dwelling Unit": [13392, 17873, 20906], "Non-Residential (per sq ft)": [10.84, 14.37, 16.78]}, "North Shore Sewerage Area (NSSA)": {"Residential Lot Development Unit": [21203, 28385, 33214], "Townhouse Dwelling Unit": [19277, 25748, 30113], "Apartment Dwelling Unit": [13099, 17548, 20533], "Non-Residential (per sq ft)": [10.54, 14.04, 16.4]}, "Lulu Island West Sewerage Area (LIWSA)": {"Residential Lot Development Unit": [17126, 24058, 28512], "Townhouse Dwelling Unit": [15208, 21423, 25404], "Apartment Dwelling Unit": [10610, 14906, 17663], "Non-Residential (per sq ft)": [8.09, 11.43, 13.56]}, "Fraser Sewerage Area (FSA)": {"Residential Lot Development Unit": [22886, 30218, 35270], "Townhouse Dwelling Unit": [20296, 26865, 31375], "Apartment Dwelling Unit": [14396, 18956, 22108], "Non-Residential (per sq ft)": [10.95, 14.49, 16.91]}}, "vancouverDCL": {"Residential at or below 1.2 FSR / laneway": [49.88, 31.25], "Residential above 1.2 to 1.5 FSR": [107.34, 67.33], "Residential above 1.5 FSR": [214.89, 134.65], "Commercial and most other uses": [214.89, 67.33], "Industrial": [85.96, 26.91], "Mixed employment (light industrial)": [161.07, 50.47], "School (K-12)": [5.49, 5.49]}, "vancouverAreaDCL": {"False Creek Flats": 64.25, "South East False Creek": 198.64}, "translink": {"Single Family Dwelling": [3330, 3416], "Duplex": [2765, 2837], "Townhouse Dwelling": [2765, 2837], "Apartment": [1729, 1774], "Retail / Service (per sq ft)": [1.4, 1.44], "Office (per sq ft)": [1.13, 1.16], "Institutional (per sq ft)": [0.55, 0.56], "Industrial (per sq ft)": [0.33, 0.34]}, "landUseToTranslink": {"Residential Lot Development Unit": "Single Family Dwelling", "Townhouse Dwelling Unit": "Townhouse Dwelling", "Apartment Dwelling Unit": "Apartment", "Non-Residential (per sq ft)": "Office (per sq ft)"}, "fees": [{"muni": "Vancouver", "program": "City-wide DCL", "landUse": "Residential at or below 1.2 FSR / laneway", "rate": 49.88, "unit": "$/m2 GFA", "effective": "2025-12-10", "status": "In effect", "bylaw": "DCL By-law 12183", "source": "vancouver_dcl_bulletin", "nextReview": "2026-09-30", "basis": "Annual DCL adjustment effective Sept 30 + Financing Growth update", "notes": "Includes the 20% reduction of 2025-12-10."}, {"muni": "Vancouver", "program": "Utilities DCL", "landUse": "Residential at or below 1.2 FSR / laneway", "rate": 31.25, "unit": "$/m2 GFA", "effective": "2025-12-10", "status": "In effect", "bylaw": "Utilities DCL By-law", "source": "vancouver_dcl_bulletin", "nextReview": "2026-09-30", "basis": "Annual DCL adjustment effective Sept 30", "notes": "Combined with city-wide: $81.13/m2."}, {"muni": "Vancouver", "program": "City-wide DCL", "landUse": "Residential above 1.2 to 1.5 FSR", "rate": 107.34, "unit": "$/m2 GFA", "effective": "2025-12-10", "status": "In effect", "bylaw": "DCL By-law 12183", "source": "vancouver_dcl_bulletin", "nextReview": "2026-09-30", "basis": "Annual DCL adjustment effective Sept 30", "notes": ""}, {"muni": "Vancouver", "program": "Utilities DCL", "landUse": "Residential above 1.2 to 1.5 FSR", "rate": 67.33, "unit": "$/m2 GFA", "effective": "2025-12-10", "status": "In effect", "bylaw": "Utilities DCL By-law", "source": "vancouver_dcl_bulletin", "nextReview": "2026-09-30", "basis": "Annual DCL adjustment effective Sept 30", "notes": "Combined: $174.67/m2."}, {"muni": "Vancouver", "program": "City-wide DCL", "landUse": "Residential above 1.5 FSR", "rate": 214.89, "unit": "$/m2 GFA", "effective": "2025-12-10", "status": "In effect", "bylaw": "DCL By-law 12183", "source": "vancouver_dcl_bulletin", "nextReview": "2026-09-30", "basis": "Annual DCL adjustment effective Sept 30", "notes": "Applies to most apartment and mid/high-rise projects."}, {"muni": "Vancouver", "program": "Utilities DCL", "landUse": "Residential above 1.5 FSR", "rate": 134.65, "unit": "$/m2 GFA", "effective": "2025-12-10", "status": "In effect", "bylaw": "Utilities DCL By-law", "source": "vancouver_dcl_bulletin", "nextReview": "2026-09-30", "basis": "Annual DCL adjustment effective Sept 30", "notes": "Combined: $349.54/m2 - 4.3x the lowest residential band."}, {"muni": "Vancouver", "program": "City-wide DCL", "landUse": "Commercial and most other uses", "rate": 214.89, "unit": "$/m2 GFA", "effective": "2025-12-10", "status": "In effect", "bylaw": "DCL By-law 12183", "source": "vancouver_dcl_bulletin", "nextReview": "2026-09-30", "basis": "Annual DCL adjustment effective Sept 30", "notes": "Default non-residential rate."}, {"muni": "Vancouver", "program": "Utilities DCL", "landUse": "Commercial and most other uses", "rate": 67.33, "unit": "$/m2 GFA", "effective": "2025-12-10", "status": "In effect", "bylaw": "Utilities DCL By-law", "source": "vancouver_dcl_bulletin", "nextReview": "2026-09-30", "basis": "Annual DCL adjustment effective Sept 30", "notes": "Combined: $282.22/m2."}, {"muni": "Vancouver", "program": "City-wide DCL", "landUse": "Industrial", "rate": 85.96, "unit": "$/m2 GFA", "effective": "2025-12-10", "status": "In effect", "bylaw": "DCL By-law 12183", "source": "vancouver_dcl_bulletin", "nextReview": "2026-09-30", "basis": "Annual DCL adjustment effective Sept 30", "notes": "I-2, M-1, M-1A, M-1B, M-2 districts."}, {"muni": "Vancouver", "program": "Utilities DCL", "landUse": "Industrial", "rate": 26.91, "unit": "$/m2 GFA", "effective": "2025-12-10", "status": "In effect", "bylaw": "Utilities DCL By-law", "source": "vancouver_dcl_bulletin", "nextReview": "2026-09-30", "basis": "Annual DCL adjustment effective Sept 30", "notes": "Combined: $112.87/m2."}, {"muni": "Vancouver", "program": "City-wide DCL", "landUse": "Mixed employment (light industrial)", "rate": 161.07, "unit": "$/m2 GFA", "effective": "2025-12-10", "status": "In effect", "bylaw": "DCL By-law 12183", "source": "vancouver_dcl_bulletin", "nextReview": "2026-09-30", "basis": "Annual DCL adjustment effective Sept 30", "notes": "IC-1, IC-2, I-1, I-1A, I-1B, I-1C, I-3, I-4 districts."}, {"muni": "Vancouver", "program": "Utilities DCL", "landUse": "Mixed employment (light industrial)", "rate": 50.47, "unit": "$/m2 GFA", "effective": "2025-12-10", "status": "In effect", "bylaw": "Utilities DCL By-law", "source": "vancouver_dcl_bulletin", "nextReview": "2026-09-30", "basis": "Annual DCL adjustment effective Sept 30", "notes": "Combined: $211.54/m2."}, {"muni": "Vancouver", "program": "Area-specific DCL", "landUse": "False Creek Flats (at or below 1.2 FSR)", "rate": 64.25, "unit": "$/m2 GFA", "effective": "2025-12-10", "status": "In effect", "bylaw": "Area Specific DCL By-law 9418", "source": "vancouver_dcl_bulletin", "nextReview": "2026-09-30", "basis": "Annual DCL adjustment effective Sept 30", "notes": "Layered ON TOP of both city-wide DCLs."}, {"muni": "Vancouver", "program": "Area-specific DCL", "landUse": "South East False Creek (at or below 1.2 FSR)", "rate": 198.64, "unit": "$/m2 GFA", "effective": "2025-12-10", "status": "In effect", "bylaw": "Area Specific DCL By-law 9418", "source": "vancouver_dcl_bulletin", "nextReview": "2026-09-30", "basis": "Annual DCL adjustment effective Sept 30", "notes": "Layered ON TOP of both city-wide DCLs."}, {"muni": "Vancouver", "program": "Amenity Cost Charge (ACC)", "landUse": "Residential at or below 1.2 FAR", "rate": 2.32, "unit": "$/sq ft", "effective": "2026-09-30", "status": "Proposed - not adopted", "bylaw": "Draft ACC By-law", "source": "vancouver_dcl", "nextReview": "2026-09-30", "basis": "Bylaw takes effect Sept 30 2026 if adopted", "notes": "NOT YET IN FORCE. Partly replaces negotiated CACs."}, {"muni": "Vancouver", "program": "Amenity Cost Charge (ACC)", "landUse": "Industrial", "rate": 1.2, "unit": "$/sq ft", "effective": "2026-09-30", "status": "Proposed - not adopted", "bylaw": "Draft ACC By-law", "source": "vancouver_dcl", "nextReview": "2026-09-30", "basis": "Bylaw takes effect Sept 30 2026 if adopted", "notes": "NOT YET IN FORCE."}, {"muni": "Vancouver", "program": "Amenity Cost Charge (ACC)", "landUse": "Mixed-employment light industrial", "rate": 2.25, "unit": "$/sq ft", "effective": "2026-09-30", "status": "Proposed - not adopted", "bylaw": "Draft ACC By-law", "source": "vancouver_dcl", "nextReview": "2026-09-30", "basis": "Bylaw takes effect Sept 30 2026 if adopted", "notes": "NOT YET IN FORCE."}, {"muni": "Vancouver", "program": "Amenity Cost Charge (ACC)", "landUse": "Commercial and other", "rate": 3.0, "unit": "$/sq ft", "effective": "2026-09-30", "status": "Proposed - not adopted", "bylaw": "Draft ACC By-law", "source": "vancouver_dcl", "nextReview": "2026-09-30", "basis": "Bylaw takes effect Sept 30 2026 if adopted", "notes": "NOT YET IN FORCE. High-density residential ACC phases in at half rate yr 1."}, {"muni": "Burnaby", "program": "DCC", "landUse": "Low density residential (SFD / duplex)", "rate": 54870, "unit": "$/unit", "effective": "2024-07-01", "status": "In effect", "bylaw": "DCC Bylaw 14645", "source": "burnaby_dcc", "nextReview": "2027-01-01", "basis": "No announced update; review annually", "notes": "Transportation 16,858 + water 2,740 + drainage 5,734 + sewer 3,491 + parks 20,632 + fire 5,415."}, {"muni": "Burnaby", "program": "ACC", "landUse": "Low density residential (SFD / duplex)", "rate": 26963, "unit": "$/unit", "effective": "2024-07-01", "status": "In effect", "bylaw": "ACC Bylaw 14646", "source": "burnaby_dcc", "nextReview": "2027-01-01", "basis": "No announced update; review annually", "notes": "Total DCC + ACC: $81,833/unit."}, {"muni": "Burnaby", "program": "DCC", "landUse": "Medium density residential (townhouse / multiplex)", "rate": 37423, "unit": "$/unit", "effective": "2024-07-01", "status": "In effect", "bylaw": "DCC Bylaw 14645", "source": "burnaby_dcc", "nextReview": "2027-01-01", "basis": "No announced update; review annually", "notes": "Includes laneway, townhouse, rowhouse, multiplex."}, {"muni": "Burnaby", "program": "ACC", "landUse": "Medium density residential (townhouse / multiplex)", "rate": 18874, "unit": "$/unit", "effective": "2024-07-01", "status": "In effect", "bylaw": "ACC Bylaw 14646", "source": "burnaby_dcc", "nextReview": "2027-01-01", "basis": "No announced update; review annually", "notes": "Total DCC + ACC: $56,297/unit."}, {"muni": "Burnaby", "program": "DCC", "landUse": "High density residential (apartment)", "rate": 25360, "unit": "$/unit", "effective": "2024-07-01", "status": "In effect", "bylaw": "DCC Bylaw 14645", "source": "burnaby_dcc", "nextReview": "2027-01-01", "basis": "No announced update; review annually", "notes": "Units off a common corridor."}, {"muni": "Burnaby", "program": "ACC", "landUse": "High density residential (apartment)", "rate": 13481, "unit": "$/unit", "effective": "2024-07-01", "status": "In effect", "bylaw": "ACC Bylaw 14646", "source": "burnaby_dcc", "nextReview": "2027-01-01", "basis": "No announced update; review annually", "notes": "Total DCC + ACC: $38,841/unit."}, {"muni": "Burnaby", "program": "DCC", "landUse": "Commercial", "rate": 259.06, "unit": "$/m2 GFA", "effective": "2024-07-01", "status": "In effect", "bylaw": "DCC Bylaw 14645", "source": "burnaby_dcc", "nextReview": "2027-01-01", "basis": "No announced update; review annually", "notes": "Plus ACC $60.67/m2. Total $319.73/m2."}, {"muni": "Burnaby", "program": "DCC", "landUse": "Industrial", "rate": 111.97, "unit": "$/m2 GFA", "effective": "2024-07-01", "status": "In effect", "bylaw": "DCC Bylaw 14645", "source": "burnaby_dcc", "nextReview": "2027-01-01", "basis": "No announced update; review annually", "notes": "Plus ACC $40.44/m2. Total $152.41/m2. No parks component."}, {"muni": "Burnaby", "program": "DCC", "landUse": "Institutional", "rate": 183.4, "unit": "$/m2 GFA", "effective": "2024-07-01", "status": "In effect", "bylaw": "DCC Bylaw 14645", "source": "burnaby_dcc", "nextReview": "2027-01-01", "basis": "No announced update; review annually", "notes": "Plus ACC $60.67/m2. Total $244.07/m2."}, {"muni": "Burnaby", "program": "Density bonus (CBB)", "landUse": "R6/R7/R8 market strata - SW quadrant", "rate": 185, "unit": "$/sq ft", "effective": "2025-10-01", "status": "In effect", "bylaw": "Community Benefit Bonus Bylaw", "source": "burnaby_dcc", "nextReview": "2026-10-01", "basis": "CBB rates updated annually", "notes": "Highest quadrant. NW $150, NE $140, SE $140. Market rental is lower."}, {"muni": "Burnaby", "program": "Density bonus (CBB)", "landUse": "R6/R7/R8 market rental - SW quadrant", "rate": 148, "unit": "$/sq ft", "effective": "2025-10-01", "status": "In effect", "bylaw": "Community Benefit Bonus Bylaw", "source": "burnaby_dcc", "nextReview": "2026-10-01", "basis": "CBB rates updated annually", "notes": "NW $113, NE $105, SE $105."}, {"muni": "Surrey", "program": "DCC", "landUse": "See Bylaw 21174 schedule", "rate": 0, "unit": "varies", "effective": "2024-05-15", "status": "In effect - rates not loaded", "bylaw": "DCC Bylaw 21174", "source": "surrey_dcc", "nextReview": "2026-09-30", "basis": "2026 bylaw awaiting Inspector of Municipalities approval", "notes": "Surrey's site names Bylaw 21174 (in effect 2024-05-15) as current. The rate schedule is in a PDF that blocks automated access - read it manually. Rates deliberately left at 0 rather than carrying an unverified number."}, {"muni": "Surrey", "program": "DCC (proposed)", "landUse": "Single / small-scale multi-unit (SSMUH)", "rate": 51633, "unit": "$/unit", "effective": "2026-05-11", "status": "Proposed - not in force", "bylaw": "2026 DCC Bylaw", "source": "surrey_dcc", "nextReview": "2026-09-30", "basis": "Awaiting provincial approval", "notes": "Three readings 2026-05-11, sent to Inspector of Municipalities. Down from $55,260."}, {"muni": "Surrey", "program": "DCC (proposed)", "landUse": "Low-rise residential", "rate": 30.72, "unit": "$/sq ft", "effective": "2026-05-11", "status": "Proposed - not in force", "bylaw": "2026 DCC Bylaw", "source": "surrey_dcc", "nextReview": "2026-09-30", "basis": "Awaiting provincial approval", "notes": "Down from $33.47/sq ft."}, {"muni": "Surrey", "program": "DCC (proposed)", "landUse": "High-rise residential", "rate": 30.3, "unit": "$/sq ft", "effective": "2026-05-11", "status": "Proposed - not in force", "bylaw": "2026 DCC Bylaw", "source": "surrey_dcc", "nextReview": "2026-09-30", "basis": "Awaiting provincial approval", "notes": "Down from $33.18/sq ft."}, {"muni": "Richmond", "program": "DCC", "landUse": "(not yet verified)", "rate": 0, "unit": "varies", "effective": "", "status": "Not verified", "bylaw": "", "source": "richmond_dcc", "nextReview": "2026-08-01", "basis": "Needs a primary-source pass", "notes": "No rates loaded. Do not assume zero - go read the bylaw."}, {"muni": "New Westminster", "program": "DCC", "landUse": "(not yet verified)", "rate": 0, "unit": "varies", "effective": "2026-01-12", "status": "Not verified", "bylaw": "2026 DCC Bylaw", "source": "new_west_dcc", "nextReview": "2026-08-01", "basis": "Needs a primary-source pass", "notes": "New bylaw adopted 2026-01-12 adding fire and police categories; rates rose. Not loaded."}, {"muni": "Coquitlam", "program": "DCC", "landUse": "(not yet verified)", "rate": 0, "unit": "varies", "effective": "", "status": "Not verified", "bylaw": "", "source": "coquitlam_dcc", "nextReview": "2026-08-01", "basis": "Needs a primary-source pass", "notes": "No rates loaded."}, {"muni": "Langley (Township)", "program": "DCC", "landUse": "(not yet verified)", "rate": 0, "unit": "varies", "effective": "", "status": "Not verified", "bylaw": "", "source": null, "nextReview": "2026-08-01", "basis": "Needs a primary-source pass", "notes": "Earlier $87,615 figure came from a Surrey comparator report, not the Township bylaw. Removed rather than carried unverified."}, {"muni": "Victoria", "program": "DCC", "landUse": "Low density residential", "rate": 24582.06, "unit": "$/lot or unit", "effective": "2024-11-14", "status": "In effect", "bylaw": "DCC Bylaw 24-053", "source": "victoria_dcc", "nextReview": "2027-01-01", "basis": "5-year bylaw cycle", "notes": "Transportation 9,254.76 + water 4,071.05 + drainage 571.55 + sewer 2,104.61 + parks 8,580.10. Exempt: <4 units, <29m2, work <$50k."}, {"muni": "Victoria", "program": "DCC", "landUse": "Medium density residential", "rate": 14529.66, "unit": "$/unit", "effective": "2024-11-14", "status": "In effect", "bylaw": "DCC Bylaw 24-053", "source": "victoria_dcc", "nextReview": "2027-01-01", "basis": "5-year bylaw cycle", "notes": ""}, {"muni": "Victoria", "program": "DCC", "landUse": "High density residential", "rate": 10207.18, "unit": "$/unit", "effective": "2024-11-14", "status": "In effect", "bylaw": "DCC Bylaw 24-053", "source": "victoria_dcc", "nextReview": "2027-01-01", "basis": "5-year bylaw cycle", "notes": ""}, {"muni": "Victoria", "program": "DCC", "landUse": "Commercial / Institutional", "rate": 91.03, "unit": "$/m2 GFA", "effective": "2024-11-14", "status": "In effect", "bylaw": "DCC Bylaw 24-053", "source": "victoria_dcc", "nextReview": "2027-01-01", "basis": "5-year bylaw cycle", "notes": ""}, {"muni": "Victoria", "program": "DCC", "landUse": "Industrial", "rate": 30.7, "unit": "$/m2 GFA", "effective": "2024-11-14", "status": "In effect", "bylaw": "DCC Bylaw 24-053", "source": "victoria_dcc", "nextReview": "2027-01-01", "basis": "5-year bylaw cycle", "notes": ""}, {"muni": "Courtenay", "program": "DCC", "landUse": "Low density residential", "rate": 21832.0, "unit": "$/lot or unit", "effective": "2026-04-30", "status": "In effect", "bylaw": "DCC Bylaw 3191", "source": "courtenay_dcc", "nextReview": "2027-04-30", "basis": "Adopted Apr 2026; 1% MAF, 20-yr horizon", "notes": "Funds transportation, water, drainage, sanitary, parks, fire. Plus CVRD sewer DCC. Courtenay also adopted an ACC effective same date."}, {"muni": "Courtenay", "program": "DCC", "landUse": "Medium density residential", "rate": 12278.0, "unit": "$/unit", "effective": "2026-04-30", "status": "In effect", "bylaw": "DCC Bylaw 3191", "source": "courtenay_dcc", "nextReview": "2027-04-30", "basis": "Adopted Apr 2026", "notes": ""}, {"muni": "Courtenay", "program": "DCC", "landUse": "High density residential", "rate": 141.09, "unit": "$/m2 GFA", "effective": "2026-04-30", "status": "In effect", "bylaw": "DCC Bylaw 3191", "source": "courtenay_dcc", "nextReview": "2027-04-30", "basis": "Adopted Apr 2026", "notes": ""}, {"muni": "Courtenay", "program": "DCC", "landUse": "Commercial", "rate": 91.32, "unit": "$/m2 GFA", "effective": "2026-04-30", "status": "In effect", "bylaw": "DCC Bylaw 3191", "source": "courtenay_dcc", "nextReview": "2027-04-30", "basis": "Adopted Apr 2026", "notes": ""}, {"muni": "Courtenay", "program": "DCC", "landUse": "Industrial", "rate": 17.1, "unit": "$/m2 GFA", "effective": "2026-04-30", "status": "In effect", "bylaw": "DCC Bylaw 3191", "source": "courtenay_dcc", "nextReview": "2027-04-30", "basis": "Adopted Apr 2026", "notes": ""}, {"muni": "Courtenay", "program": "DCC", "landUse": "Institutional", "rate": 73.31, "unit": "$/m2 GFA", "effective": "2026-04-30", "status": "In effect", "bylaw": "DCC Bylaw 3191", "source": "courtenay_dcc", "nextReview": "2027-04-30", "basis": "Adopted Apr 2026", "notes": ""}, {"muni": "Nanaimo", "program": "DCC", "landUse": "Low density residential (single family)", "rate": 14862.27, "unit": "$/lot", "effective": "2022-12-07", "status": "In effect", "bylaw": "DCC Bylaw 7252", "source": "nanaimo_dcc", "nextReview": "2027-01-01", "basis": "Bylaw 7438 replaces this Jan 2027 (~$42,887/lot)", "notes": "City portion. RDN Southern Wastewater adds $4,622.37/lot -> $19,484.64 total. Non-profit rental gets 50% reduction."}, {"muni": "Nanaimo", "program": "DCC", "landUse": "High density residential", "rate": 89.1, "unit": "$/m2 GFA", "effective": "2022-12-07", "status": "In effect", "bylaw": "DCC Bylaw 7252", "source": "nanaimo_dcc", "nextReview": "2027-01-01", "basis": "Bylaw 7438 replaces this Jan 2027", "notes": ""}, {"muni": "Nanaimo", "program": "DCC", "landUse": "Commercial / Institutional", "rate": 77.42, "unit": "$/m2 GFA", "effective": "2022-12-07", "status": "In effect", "bylaw": "DCC Bylaw 7252", "source": "nanaimo_dcc", "nextReview": "2027-01-01", "basis": "Bylaw 7438 pending", "notes": ""}, {"muni": "Nanaimo", "program": "DCC", "landUse": "Industrial", "rate": 19.75, "unit": "$/m2 GFA", "effective": "2022-12-07", "status": "In effect", "bylaw": "DCC Bylaw 7252", "source": "nanaimo_dcc", "nextReview": "2027-01-01", "basis": "Bylaw 7438 pending", "notes": ""}, {"muni": "Nanaimo", "program": "DCC (proposed)", "landUse": "Low density residential", "rate": 42887.29, "unit": "$/lot", "effective": "2027-01-01", "status": "Proposed - not in force", "bylaw": "DCC Bylaw 7438", "source": "nanaimo_dcc", "nextReview": "2027-01-01", "basis": "First 3 readings Apr 2026; adoption planned Jan 2027", "notes": "Scenario 2, 1% MAF. Nearly 3x current. With ACC $48,165.73. Plus South Nanaimo area-specific transportation DCC where applicable."}, {"muni": "Parksville", "program": "DCC", "landUse": "Residential subdivision (1-2 units/lot)", "rate": 28344.74, "unit": "$/lot", "effective": "2023-06-01", "status": "In effect", "bylaw": "DCC Bylaw 1437", "source": "parksville_dcc", "nextReview": "2026-12-01", "basis": "RDN Northern sewer DCC under review (~37-39% increase)", "notes": "City $14,489.99 + RDN Northern sewer $13,854.75. RDN portion increasing."}, {"muni": "Parksville", "program": "DCC", "landUse": "Multi-family low density", "rate": 207.97, "unit": "$/m2 GFA", "effective": "2023-06-01", "status": "In effect", "bylaw": "DCC Bylaw 1437", "source": "parksville_dcc", "nextReview": "2026-12-01", "basis": "RDN portion under review", "notes": "Combined City + RDN."}, {"muni": "Parksville", "program": "DCC", "landUse": "Commercial", "rate": 153.43, "unit": "$/m2 GFA", "effective": "2023-06-01", "status": "In effect", "bylaw": "DCC Bylaw 1437", "source": "parksville_dcc", "nextReview": "2026-12-01", "basis": "RDN portion under review", "notes": ""}, {"muni": "Parksville", "program": "DCC", "landUse": "Industrial", "rate": 120.54, "unit": "$/m2 GFA", "effective": "2023-06-01", "status": "In effect", "bylaw": "DCC Bylaw 1437", "source": "parksville_dcc", "nextReview": "2026-12-01", "basis": "RDN portion under review", "notes": ""}, {"muni": "Langford", "program": "DCC", "landUse": "Low density residential (single family)", "rate": 11383.0, "unit": "$/lot", "effective": "2023-09-05", "status": "In effect", "bylaw": "Bylaws 2021/2022/2023/2024/1600", "source": "langford_dcc", "nextReview": "2026-12-01", "basis": "Multiple component bylaws; review annually", "notes": "Roads 5,876 + drainage 1,655 + parks 3,357 + sewer ISIF 495. No municipal water DCC (CRD Juan de Fuca water DCC $2,796 applies on top)."}, {"muni": "Langford", "program": "DCC", "landUse": "Medium density residential", "rate": 7342.25, "unit": "$/unit", "effective": "2023-09-05", "status": "In effect", "bylaw": "Bylaws 2021-2024/1600", "source": "langford_dcc", "nextReview": "2026-12-01", "basis": "Component bylaws", "notes": ""}, {"muni": "Langford", "program": "DCC", "landUse": "High density residential", "rate": 5497.04, "unit": "$/unit", "effective": "2023-09-05", "status": "In effect", "bylaw": "Bylaws 2021-2024/1600", "source": "langford_dcc", "nextReview": "2026-12-01", "basis": "Component bylaws", "notes": ""}, {"muni": "Colwood", "program": "DCC", "landUse": "Low density residential (single family)", "rate": 16926.1, "unit": "$/lot", "effective": "2024-10-28", "status": "In effect", "bylaw": "Bylaws 1836/1990/2037/1500", "source": "colwood_dcc", "nextReview": "2026-12-01", "basis": "Multiple component bylaws; review annually", "notes": "Roads 8,142.09 + parks acq 2,900.53 + park impr 2,806.48 + sewer enhancement 3,077. No municipal water DCC (CRD Juan de Fuca $2,796 applies on top)."}, {"muni": "Colwood", "program": "DCC", "landUse": "Medium density residential", "rate": 12357.05, "unit": "$/unit", "effective": "2024-10-28", "status": "In effect", "bylaw": "Bylaws 1836/1990/2037/1500", "source": "colwood_dcc", "nextReview": "2026-12-01", "basis": "Component bylaws", "notes": ""}, {"muni": "Colwood", "program": "DCC", "landUse": "High density residential", "rate": 9337.3, "unit": "$/unit", "effective": "2024-10-28", "status": "In effect", "bylaw": "Bylaws 1836/1990/2037/1500", "source": "colwood_dcc", "nextReview": "2026-12-01", "basis": "Component bylaws", "notes": ""}, {"muni": "Comox", "program": "DCC", "landUse": "Low density residential", "rate": 30792.0, "unit": "$/lot", "effective": "2026-01-01", "status": "Needs verification", "bylaw": "DCC Bylaw 2053", "source": "comox_dcc", "nextReview": "2026-08-15", "basis": "Adopted rates unconfirmed - verify against bylaw PDF", "notes": "UNVERIFIED. This is the June 2025 DRAFT figure; whether adopted Bylaw 2053 matches is unconfirmed (PDF blocked automated access). Plus Comox ACC and CVRD water/sewer DCCs."}, {"muni": "Comox", "program": "DCC", "landUse": "Medium density residential", "rate": 14466.0, "unit": "$/unit", "effective": "2026-01-01", "status": "Needs verification", "bylaw": "DCC Bylaw 2053", "source": "comox_dcc", "nextReview": "2026-08-15", "basis": "Draft figure - verify", "notes": "UNVERIFIED draft."}, {"muni": "Comox", "program": "DCC", "landUse": "High density residential", "rate": 160.49, "unit": "$/m2 GFA", "effective": "2026-01-01", "status": "Needs verification", "bylaw": "DCC Bylaw 2053", "source": "comox_dcc", "nextReview": "2026-08-15", "basis": "Draft figure - verify", "notes": "UNVERIFIED draft."}, {"muni": "Duncan", "program": "DCC", "landUse": "Single family residential", "rate": 7814.0, "unit": "$/lot", "effective": "2023-07-21", "status": "Needs verification", "bylaw": "DCC Bylaw 3234", "source": "duncan_dcc", "nextReview": "2026-08-15", "basis": "Rates from news, not bylaw - verify against PDF", "notes": "UNVERIFIED. Figure from Cowichan Valley Citizen at introduction, not the bylaw text. Up to 50% reduction for multi-family meeting density targets, +25% for sustainability."}, {"muni": "Duncan", "program": "DCC", "landUse": "Townhouse", "rate": 5412.0, "unit": "$/unit", "effective": "2023-07-21", "status": "Needs verification", "bylaw": "DCC Bylaw 3234", "source": "duncan_dcc", "nextReview": "2026-08-15", "basis": "News figure - verify", "notes": "UNVERIFIED."}, {"muni": "Duncan", "program": "DCC", "landUse": "Apartment", "rate": 3986.0, "unit": "$/unit", "effective": "2023-07-21", "status": "Needs verification", "bylaw": "DCC Bylaw 3234", "source": "duncan_dcc", "nextReview": "2026-08-15", "basis": "News figure - verify", "notes": "UNVERIFIED."}], "sources": [{"id": "metro_van_dcc", "jurisdiction": "Metro Vancouver (regional)", "fee_types": "Water DCC, Liquid Waste DCC, Parkland DCC", "url": "https://metrovancouver.org/about-us/development-cost-charges", "parser": "metro_van_dcc", "format": "HTML tables", "reliability": "High - clean semantic tables", "update_cadence": "Jan 1 annually; ad hoc bylaw amendments"}, {"id": "vancouver_dcl", "jurisdiction": "Vancouver", "fee_types": "City-wide DCL, Utilities DCL, Area-specific DCL", "url": "https://vancouver.ca/home-property-development/development-cost-levies.aspx", "parser": "vancouver_dcl", "format": "HTML + PDF bulletin", "reliability": "Medium - rates live in a linked PDF bulletin", "update_cadence": "Sept 30 annually"}, {"id": "vancouver_dcl_bulletin", "jurisdiction": "Vancouver", "fee_types": "DCL rate schedule (authoritative)", "url": "https://guidelines.vancouver.ca/bulletins/bulletin-development-cost-levies.pdf", "parser": "pdf_rate_table", "format": "PDF", "reliability": "High - authoritative, but PDF parsing is brittle", "update_cadence": "Sept 30 annually"}, {"id": "vancouver_opendata_dcl_areas", "jurisdiction": "Vancouver", "fee_types": "DCL district boundaries", "url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/development-cost-levy-dcl-areas/records", "parser": "opendatasoft_api", "format": "JSON API", "reliability": "High - proper REST API, refreshed weekly", "update_cadence": "Weekly extract"}, {"id": "surrey_dcc", "jurisdiction": "Surrey", "fee_types": "DCC, area-specific DCC", "url": "https://www.surrey.ca/renovating-building-development/engineering-infrastructure/development-cost-charges", "parser": "generic_html", "format": "HTML + PDF schedules", "reliability": "Medium", "update_cadence": "Bylaw-driven, needs provincial approval"}, {"id": "burnaby_dcc", "jurisdiction": "Burnaby", "fee_types": "DCC, density bonus", "url": "https://www.burnaby.ca/services-and-payments/building-and-development/development-cost-charges", "parser": "generic_html", "format": "HTML + PDF", "reliability": "Medium - verify URL, site restructured 2024", "update_cadence": "Annual"}, {"id": "richmond_dcc", "jurisdiction": "Richmond", "fee_types": "DCC", "url": "https://www.richmond.ca/plandev/planning2/developmentcostcharges.htm", "parser": "generic_html", "format": "HTML", "reliability": "Medium", "update_cadence": "Annual"}, {"id": "new_west_dcc", "jurisdiction": "New Westminster", "fee_types": "DCC", "url": "https://www.newwestcity.ca/business-and-development/development-cost-charges", "parser": "generic_html", "format": "HTML", "reliability": "Medium", "update_cadence": "Annual - new bylaw adopted 2026-01-12"}, {"id": "coquitlam_dcc", "jurisdiction": "Coquitlam", "fee_types": "DCC", "url": "https://www.coquitlam.ca/291/Development-Cost-Charges", "parser": "generic_html", "format": "HTML", "reliability": "Medium", "update_cadence": "Annual"}, {"id": "translink_dcc", "jurisdiction": "TransLink (regional)", "fee_types": "Transportation DCC", "url": "https://www.translink.ca/about-us/doing-business-with-translink/development-cost-charges", "parser": "generic_html", "format": "HTML", "reliability": "Medium", "update_cadence": "Annual"}, {"id": "victoria_dcc", "jurisdiction": "Victoria", "fee_types": "DCC (all services)", "url": "https://www.victoria.ca/city-government/bylaws/development-cost-charges", "parser": "generic_html", "format": "HTML + PDF bylaw", "reliability": "High - verified from Bylaw 24-053 PDF", "update_cadence": "5-year cycle"}, {"id": "courtenay_dcc", "jurisdiction": "Courtenay", "fee_types": "DCC + ACC", "url": "https://www.courtenay.ca/dcc", "parser": "generic_html", "format": "HTML", "reliability": "High - verified from official page", "update_cadence": "Adopted Apr 2026"}, {"id": "nanaimo_dcc", "jurisdiction": "Nanaimo", "fee_types": "DCC (+ RDN sewer)", "url": "https://www.nanaimo.ca/your-government/projects/development-cost-charge-bylaw-project", "parser": "generic_html", "format": "HTML + PDF", "reliability": "Medium - current verified, Bylaw 7438 pending Jan 2027", "update_cadence": "Major update Jan 2027"}, {"id": "parksville_dcc", "jurisdiction": "Parksville", "fee_types": "DCC (City + RDN)", "url": "http://www.parksville.ca/cms.asp?wpID=476", "parser": "generic_html", "format": "HTML brochure", "reliability": "Medium - RDN portion under review", "update_cadence": "RDN sewer DCC increasing"}, {"id": "langford_dcc", "jurisdiction": "Langford", "fee_types": "DCC (component bylaws)", "url": "https://langford.ca/wp-content/uploads/2020/10/DCC-Summary-Sheet.pdf", "parser": "pdf_rate_table", "format": "PDF summary sheet", "reliability": "Medium - multiple bylaws, verified 2025-05", "update_cadence": "Annual"}, {"id": "colwood_dcc", "jurisdiction": "Colwood", "fee_types": "DCC (component bylaws)", "url": "https://www.colwood.ca/sites/default/files/2025-01/DEVELOPMENT%20COST%20CHARGES%20(January%202025).pdf", "parser": "pdf_rate_table", "format": "PDF", "reliability": "Medium - verified Jan 2025", "update_cadence": "Annual"}, {"id": "comox_dcc", "jurisdiction": "Comox", "fee_types": "DCC + ACC", "url": "https://www.comox.ca/dcc", "parser": "generic_html", "format": "HTML + PDF (blocked)", "reliability": "LOW - rates unverified, PDF blocked", "update_cadence": "Bylaw 2053 adopted 2026"}, {"id": "duncan_dcc", "jurisdiction": "Duncan", "fee_types": "DCC", "url": "https://duncan.ca/city-hall/planning-and-development/development-cost-charges/", "parser": "generic_html", "format": "HTML + PDF (blocked)", "reliability": "LOW - rates from news, unverified", "update_cadence": "Bylaw 3234 (2023)"}], "islandDCC": {"Victoria": {"Low density residential": {"unit": "$/lot or unit", "Transportation": 9254.76, "Water": 4071.05, "Drainage": 571.55, "Sewer": 2104.61, "Parks": 8580.1, "total": 24582.06}, "Medium density residential": {"unit": "$/unit", "Transportation": 4212.51, "Water": 2770.24, "Drainage": 276.25, "Sewer": 1432.13, "Parks": 5838.53, "total": 14529.66}, "High density residential": {"unit": "$/unit", "Transportation": 3957.21, "Water": 1686.23, "Drainage": 138.12, "Sewer": 871.73, "Parks": 3553.89, "total": 10207.18}, "Commercial": {"unit": "$/m2 GFA", "Transportation": 63.83, "Water": 13.25, "Drainage": 1.52, "Sewer": 6.85, "Parks": 5.58, "total": 91.03}, "Industrial": {"unit": "$/m2 GFA", "Transportation": 19.15, "Water": 5.42, "Drainage": 1.05, "Sewer": 2.8, "Parks": 2.28, "total": 30.7}, "Institutional": {"unit": "$/m2 GFA", "Transportation": 63.83, "Water": 13.25, "Drainage": 1.52, "Sewer": 6.85, "Parks": 5.58, "total": 91.03}}, "Courtenay": {"Low density residential": {"unit": "$/lot or unit", "total": 21832.0}, "Medium density residential": {"unit": "$/unit", "total": 12278.0}, "High density residential": {"unit": "$/m2 GFA", "total": 141.09}, "Commercial": {"unit": "$/m2 GFA", "total": 91.32}, "Industrial": {"unit": "$/m2 GFA", "total": 17.1}, "Institutional": {"unit": "$/m2 GFA", "total": 73.31}}, "Nanaimo": {"Low density residential": {"unit": "$/lot", "Sewer": 1787.04, "Drainage": 75.94, "Water": 5925.89, "Parks": 1249.32, "Transportation": 5824.08, "total": 14862.27}, "High density residential": {"unit": "$/m2 GFA", "Sewer": 10.77, "Drainage": 0.38, "Water": 35.71, "Parks": 7.53, "Transportation": 35.09, "total": 89.1}, "Commercial": {"unit": "$/m2 GFA", "total": 77.42}, "Industrial": {"unit": "$/m2 GFA", "total": 19.75}}, "Colwood": {"Low density residential": {"unit": "$/lot", "Transportation": 8142.09, "Parks": 5707.01, "Sewer": 3077.0, "total": 16926.1}, "Medium density residential": {"unit": "$/unit", "Transportation": 5268.41, "Parks": 4993.64, "Sewer": 2095.0, "total": 12357.05}, "High density residential": {"unit": "$/unit", "Transportation": 4949.11, "Parks": 3210.19, "Sewer": 1178.0, "total": 9337.3}}, "Langford": {"Low density residential": {"unit": "$/lot", "Transportation": 5876.0, "Drainage": 1655.0, "Parks": 3357.0, "Sewer": 495.0, "total": 11383.0}, "Medium density residential": {"unit": "$/unit", "Transportation": 3865.0, "Drainage": 1028.0, "Parks": 2078.0, "Sewer": 371.25, "total": 7342.25}, "High density residential": {"unit": "$/unit", "Transportation": 3092.39, "Drainage": 635.0, "Parks": 1438.0, "Sewer": 331.65, "total": 5497.04}}}, "islandRegional": {"CRD Juan de Fuca Water (in force)": {"applies": ["Colwood", "Langford"], "Low density residential": 2796.0, "Medium density residential": 2446.0, "High density residential": 1573.0, "unit": "$/lot or unit"}}, "upcoming": [{"date": "2026-07-24", "what": "Metro Vancouver DCC rollback bylaw adoption", "detail": "Board votes to roll 2026 rates back to 2025 levels and defer the 1% assist factor to 2029. No rebates for in-stream applications.", "impact": "high"}, {"date": "2026-09-30", "what": "Vancouver ACC By-law takes effect", "detail": "New city-wide Amenity Cost Charge partly replaces negotiated CACs. Applications in stream before this date get up to 5 years protection.", "impact": "high"}, {"date": "2026-09-30", "what": "Vancouver DCL annual update", "detail": "DCL rates adjust every Sept 30. The 20% temporary reduction is expected to be revisited in the same package.", "impact": "high"}, {"date": "2027-01-01", "what": "Metro Vancouver Step 3 + TransLink adjustment", "detail": "Step 3 regional rates, being reduced by the July 2026 amendment. TransLink adjusts annually on Jan 1.", "impact": "medium"}, {"date": "2028-01-01", "what": "Metro Vancouver new DCC program", "detail": "Full program update underway since 2025; new rates supersede everything.", "impact": "low"}, {"date": "2026-06-01", "what": "Comox Valley CVRD sewer fee changes", "detail": "CVRD Bylaw 71 sewerage fee changes take effect; sewer DCCs collected by Courtenay and Comox increase.", "impact": "medium"}, {"date": "2027-01-01", "what": "Nanaimo Bylaw 7438 takes effect", "detail": "Nanaimo single-family DCC nearly triples, from ~$14,862 to ~$42,887/lot, plus a new ACC and South Nanaimo area-specific transportation DCC. Adoption planned January 2027.", "impact": "high"}, {"date": "2027-04-02", "what": "CRD Regional Water Supply DCC starts", "detail": "New CRD-wide water DCC (~$9,044/single-family lot) layers on top of municipal charges across Victoria, Langford, Colwood and other CRD members. Awaiting Inspector of Municipalities approval.", "impact": "high"}], "changeLog": [{"ts": "2026-07-23 09:00", "source": "(seed)", "field": "initial load", "old": "", "new": "", "status": "OK", "note": "Baseline built from primary sources: Metro Vancouver DCC page and the City of Vancouver DCL Bulletin (amended 2026-01-22).", "applied": true, "appliedAt": "2026-07-23 15:00"}, {"ts": "2026-07-23 12:00", "source": "vancouver_dcl_bulletin", "field": "Utilities DCL", "old": "39.06", "new": "31.25", "status": "CORRECTED", "note": "First pass took $39.06/m2 from an industry blog. The City's own DCL Bulletin Table 1 gives $31.25/m2 for the at-or-below 1.2 FSR band. The blog figure was wrong.", "applied": true, "appliedAt": "2026-07-23 15:00"}, {"ts": "2026-07-23 12:00", "source": "vancouver_dcl_bulletin", "field": "DCL rate structure", "old": "flat", "new": "3 bands", "status": "CORRECTED", "note": "First pass treated the residential DCL as one flat rate. It is banded by density: $81.13/m2 at or below 1.2 FSR, $174.67 from 1.2-1.5 FSR, $349.54 above 1.5 FSR. Using the lowest band for an apartment project understated Vancouver DCLs roughly 4x.", "applied": true, "appliedAt": "2026-07-23 15:00"}, {"ts": "2026-07-23 12:00", "source": "vancouver_dcl_bulletin", "field": "TransLink DCC", "old": "", "new": "added", "status": "NEW", "note": "TransLink DCC found in Bulletin Appendix E and added to the calculator. Only 2025 and 2026 rates are published.", "applied": true, "appliedAt": "2026-07-23 15:00"}, {"ts": "2026-07-23 15:00", "source": "burnaby_dcc", "field": "Burnaby DCC / ACC", "old": "38.54", "new": "full table", "status": "CORRECTED", "note": "The $38.54/unit townhouse figure came from a Surrey comparator report and was wrong. Burnaby's own rate table gives townhouse DCC $37,423/unit plus ACC $18,874. Full DCC+ACC schedule loaded, plus Community Benefit Bonus density rates.", "applied": true, "appliedAt": "2026-07-23 15:00"}, {"ts": "2026-07-23 15:00", "source": "surrey_dcc", "field": "Surrey status", "old": "in effect", "new": "not in force", "status": "CORRECTED", "note": "Surrey's own site names Bylaw 21174 (May 2024) as current. The 2026 rates are with the Inspector of Municipalities and not in force. Split into separate proposed rows; in-force schedule left unloaded rather than guessed.", "applied": true, "appliedAt": "2026-07-23 15:00"}, {"ts": "2026-07-23 15:00", "source": "(manual)", "field": "Richmond / New West / Coquitlam / Langley", "old": "partial", "new": "removed", "status": "REMOVED", "note": "Unverified third-hand figures removed rather than carried. These four jurisdictions now show no rate and are flagged for a primary-source pass.", "applied": true, "appliedAt": "2026-07-23 15:00"}, {"ts": "2026-07-24 17:00", "source": "(research)", "field": "Vancouver Island municipalities", "old": "", "new": "8 cities added", "status": "NEW", "applied": true, "appliedAt": "2026-07-24 17:00", "note": "Added Victoria, Courtenay, Nanaimo, Parksville, Langford, Colwood (verified from bylaws) plus Comox and Duncan (flagged unverified - bylaw PDFs blocked). 32 fee rows, per-service calculator path, CRD regional water DCC, and 3 upcoming Island events. Nanaimo Bylaw 7438 (triples the single-family charge Jan 2027) loaded as proposed."}], "news": [{"date": "2026-07-23", "source": "Metro Vancouver", "tag": "Regional", "title": "DCC rollback bylaw goes to three regional boards for adoption July 24", "url": "https://metrovancouver.org/about-us/development-cost-charges", "summary": "The Province has approved Metro Vancouver's request to revise its DCC bylaws. The regional district, water district and sewerage district boards all vote July 24; if adopted, 2026 rates revert to 2025 levels the same day, 2027 increases shrink, and the 1% assist factor slips to 2029. No rebates for fees already paid.", "impact": "high", "affects": "Every regional DCC line in the register"}, {"date": "2026-07-10", "source": "Storeys", "tag": "Vancouver", "title": "Vancouver unveils ACC program and updated DCL program for Sept 30 start", "url": "https://howardchai.substack.com/p/vancouver-amenity-cost-charges-acc-program-dcl-update-2026", "summary": "Council reviewed the new Amenity Cost Charge by-law and updated DCL by-law, both taking effect September 30. The ACC has built-in rate increases for four years and isn't expected to be amended until 2030. Applications in stream before Sept 30 get up to five years of protection; after that, a rolling 12-month rate protection applies from each change.", "impact": "high", "affects": "Vancouver ACC rows (currently marked proposed)"}, {"date": "2026-07-15", "source": "UDI", "tag": "Regional", "title": "Province extends in-stream DCC protection from 12 to 24 months", "url": "https://udi.org/advocacy/updates/regional-metro-vancouver-dccs", "summary": "Regulatory changes announced July 15 double the in-stream protection window for projects facing Metro Vancouver DCC increases, from one year to two. Projects with a precursor application filed before bylaw adoption now have 24 months to reach building permit under the old rates.", "impact": "medium", "affects": "Timing strategy for in-stream projects"}, {"date": "2026-06-16", "source": "City of Surrey", "tag": "Surrey", "title": "Surrey ACC and bonus density bylaws now in force", "url": "https://www.surrey.ca/renovating-building-development/land-planning-development/amenity-cost-charges-bonus-density", "summary": "Council adopted Surrey's ACC and bonus density bylaws June 15; both took effect June 16. The ACC program replaces most previous CAC practices city-wide. A one-year transition window runs to June 14, 2027 for eligible in-stream applications. NOTE: this register does not yet carry Surrey's ACC rates -- flagged for a primary-source pass.", "impact": "high", "affects": "Missing from register - Surrey ACC rates need loading"}, {"date": "2026-06-08", "source": "VanPlex", "tag": "Regional", "title": "Six BC jurisdictions have cut development fees in 2026", "url": "https://www.vanplex.ca/blog/six-bc-cities-multiplex-fee-cuts-2026", "summary": "An analysis counts Surrey, Vancouver, Metro Vancouver, Victoria, Port Moody and Kelowna as having cut or proposed cuts to development fees this year, while thirteen GVRD municipalities haven't moved. Stacked savings on a Vancouver multiplex land between 0.4% and 2% of project cost -- meaningful but not enough to make marginal lots viable.", "impact": "low", "affects": "Context for regional comparisons"}, {"date": "2026-05-13", "source": "City of Surrey", "tag": "Surrey", "title": "Surrey sends lower 2026 DCC bylaw to the Province", "url": "https://www.surrey.ca/news-events/news/surrey-propose-even-lower-development-cost-charges-boost-housing-supply", "summary": "Council approved an updated DCC bylaw for provincial submission, cutting residential rates roughly 7-9% from 2024 levels and simplifying the fee structure to charge by building form rather than zoning. SSMUH drops to $51,633/unit. Still awaiting Inspector of Municipalities approval -- the in-force bylaw remains 21174 from May 2024.", "impact": "medium", "affects": "Surrey proposed rows in the register"}, {"date": "2026-05-07", "source": "Globe and Mail", "tag": "Regional", "title": "Builders welcome the Metro Vancouver rollback", "url": "https://www.theglobeandmail.com/real-estate/article-builders-welcome-rollback-of-metro-vancouvers-development-charges/", "summary": "Industry reaction to the April board decision. Developers describe a narrow two-year window for projects near viability -- likely rentals -- to move, with one estimating the rollback saves $2-2.5M on a typical 30-storey tower. The subdued presale market limits how many projects can respond.", "impact": "low", "affects": "Market context"}, {"date": "2026-04-15", "source": "Daily Hive", "tag": "Regional", "title": "Board weighs a $389M revenue gap to fund the rollback", "url": "https://dailyhive.com/vancouver/metro-vancouver-regional-district-development-cost-charges-dccs-cuts-2026", "summary": "Staff estimated the rollback would cut $270.5M from water, $75.5M from sewerage and $43M from parkland budgets over 2027-2031. Industry argued the forecast overstates the loss because it assumes development activity that won't materialize at current rates -- Q1 presales across the region totalled 87 units against a decade average near 3,900.", "impact": "low", "affects": "Background on why rates moved"}]};
-const SQFT_TO_M2 = 0.092903;
-const fmt = n => '$' + Math.round(n).toLocaleString('en-CA');
-const fmtR = n => n < 1000 ? '$' + n.toFixed(2) : '$' + Math.round(n).toLocaleString('en-CA');
-const today = new Date(); today.setHours(0,0,0,0);
-const days = iso => Math.round((new Date(iso+'T00:00:00') - today) / 86400000);
+It **won't** touch municipal rates (Vancouver DCLs, Burnaby, Surrey…).
+Those mostly live in PDF bylaws that can't be read reliably, so the robot
+flags them in the Change log for a human instead of guessing. When you
+see one flagged, ask Claude to verify it against the bylaw and give you
+updated files — then upload the changed files the same way as Step 3
+(drag onto the repository page, Commit).
 
-/* ---------- header meta ---------- */
-document.getElementById('m-ver').textContent = DATA.verified;
-document.getElementById('m-today').textContent = today.toISOString().slice(0,10);
-document.getElementById('m-rows').textContent = DATA.fees.length;
-document.getElementById('m-src').textContent = DATA.sources.length;
+## If a morning run shows a red X
 
-/* ---------- freshness strip ---------- */
-(function(){
-  let over = 0, soon = 0;
-  DATA.fees.forEach(f => { if(!f.nextReview) return;
-    const d = days(f.nextReview); if(d <= 0) over++; else if(d <= 30) soon++; });
-  const next = DATA.upcoming.map(u => ({...u, d: days(u.date)}))
-                            .filter(u => u.d >= 0).sort((a,b) => a.d - b.d)[0];
-  const strip = document.getElementById('strip');
-  const hl = document.getElementById('strip-hl'), msg = document.getElementById('strip-msg');
-  if(over){ strip.className = 'strip over'; hl.textContent = over + ' rows overdue';
-    msg.textContent = 'Their scheduled update date has passed and the data has not been refreshed since. Re-run the scraper before relying on these.'; }
-  else if(soon){ strip.className = 'strip due'; hl.textContent = soon + ' rows due for review';
-    msg.textContent = 'Scheduled to change within 30 days.' + (next ? ' Next: ' + next.what.toLowerCase() + ' in ' + next.d + ' day' + (next.d===1?'':'s') + '.' : ''); }
-  else { strip.className = 'strip'; hl.textContent = 'All current';
-    msg.textContent = next ? 'Next scheduled change: ' + next.what.toLowerCase() + ' in ' + next.d + ' days.' : 'No scheduled changes on file.'; }
-})();
-
-/* ---------- populate controls ---------- */
-const islandCities = Object.keys(DATA.islandDCC || {}).sort();
-const munis = [...new Set([...Object.keys(DATA.muniToSewerage), ...islandCities])].sort();
-const selMuni = document.getElementById('muni'), selForm = document.getElementById('form'),
-      selBand = document.getElementById('band'), fMuni = document.getElementById('f-muni');
-munis.forEach(m => { selMuni.add(new Option(m,m)); fMuni.add(new Option(m,m)); });
-const isIsland = m => islandCities.includes(m);
-// Metro land-use form -> the nearest Island land-use label
-function islandForm(muni, form){
-  const t = DATA.islandDCC[muni]; if(!t) return null;
-  const keys = Object.keys(t);
-  const f = form.toLowerCase();
-  if(f.indexOf('non-residential') === 0)
-    return keys.find(k=>/commercial/i.test(k)) || keys.find(k=>/industrial/i.test(k));
-  if(f.indexOf('apartment') === 0 || f.indexOf('high') > -1)
-    return keys.find(k=>/high density/i.test(k));
-  if(f.indexOf('townhouse') === 0 || f.indexOf('medium') > -1)
-    return keys.find(k=>/medium density/i.test(k));
-  return keys.find(k=>/low density/i.test(k)) || keys[0];
-}
-selMuni.value = 'Vancouver';
-DATA.landUses.forEach(l => selForm.add(new Option(l,l)));
-selForm.value = 'Apartment Dwelling Unit';
-Object.keys(DATA.vancouverDCL).forEach(b => selBand.add(new Option(b,b)));
-selBand.value = 'Residential above 1.5 FSR';
-
-/* ---------- calculator ---------- */
-function calc(){
-  const muni = selMuni.value, form = selForm.value, year = document.getElementById('year').value,
-        units = +document.getElementById('units').value || 0,
-        sf = +document.getElementById('area').value || 0,
-        band = selBand.value,
-        area = DATA.muniToSewerage[muni],
-        yi = ['2025','2026','2027'].indexOf(year),
-        nonRes = form.indexOf('Non-Residential') === 0,
-        qty = nonRes ? sf : units, m2 = sf * SQFT_TO_M2;
-
-  document.getElementById('band-field').style.display = muni === 'Vancouver' ? '' : 'none';
-
-  // ---- Vancouver Island path: per-service components, no regional umbrella ----
-  if(isIsland(muni)){
-    const rows = [], warn2 = [];
-    const key = islandForm(muni, form);
-    const tbl = DATA.islandDCC[muni][key];
-    const svcColor = {Transportation:'var(--transit)', Water:'var(--water)',
-      Drainage:'var(--sanitary)', Sewer:'var(--sanitary)', Parks:'var(--parkland)'};
-    // Island charges are per-lot/unit for residential, per-m2 for commercial/industrial
-    const perM2 = /m2/.test(tbl.unit || '');
-    const iqty = perM2 ? m2 : units;
-    // Is this row verified? Check the matching fee row's status.
-    const feeRow = DATA.fees.find(f => f.muni===muni && /DCC/.test(f.program) &&
-      f.status && f.status.indexOf('Needs verification')===-1);
-    const unverified = !feeRow;
-    const components = ['Transportation','Water','Drainage','Sewer','Parks'];
-    const hasSplit = components.some(c => tbl[c] !== undefined);
-    if(hasSplit){
-      components.forEach(c => {
-        if(tbl[c] === undefined) return;
-        rows.push({k:c, c:svcColor[c]||'var(--levy)', v:tbl[c]*iqty, r:tbl[c],
-          s:unverified?'unverified':'verified', n:muni + ' ' + (tbl.unit||'')});
-      });
-    } else {
-      rows.push({k:muni+' DCC', c:'var(--levy)', v:(tbl.total||0)*iqty, r:tbl.total||0,
-        s:unverified?'unverified':'verified', n:key + ' \u00b7 ' + (tbl.unit||'')});
-    }
-    // Regional water DCC layered on top (CRD Juan de Fuca for Colwood/Langford)
-    Object.entries(DATA.islandRegional || {}).forEach(([name, reg]) => {
-      if((reg.applies||[]).includes(muni) && reg[key] !== undefined){
-        rows.push({k:'CRD water DCC', c:'var(--water)', v:reg[key]*units, r:reg[key],
-          s:'verified', n:name.replace(' (in force)','')});
-      }
-    });
-    if(unverified) warn2.push('These ' + muni + ' rates are <b>not yet verified against the bylaw</b> &mdash; the source PDF blocked automated access, so the figures come from a draft or news report. Confirm before relying on them.');
-    if(muni==='Nanaimo') warn2.push('Nanaimo&rsquo;s single-family DCC nearly <b>triples to ~$42,887</b> when Bylaw 7438 takes effect (planned Jan 2027). Shown here is the current in-force rate.');
-    if(muni==='Parksville'||muni==='Colwood'||muni==='Langford') warn2.push('Figure combines multiple component bylaws; the RDN/CRD regional portion may change. Treat as close, not exact.');
-    warn2.push('Island cities have <b>no regional DCC umbrella</b> like Metro Vancouver. From April 2027 the CRD Regional Water Supply DCC (~$9,044/lot) will layer on for Victoria, Langford and Colwood.');
-
-    document.getElementById('band-field').style.display = 'none';
-    document.getElementById('calc-warn').innerHTML =
-      '<div class="warnbox">' + warn2.join('<br><br>') + '</div>';
-    const total = rows.reduce((a,b)=>a+b.v,0), max = Math.max(...rows.map(r=>r.v),1);
-    document.getElementById('bands').innerHTML = rows.map(r => `
-      <div class="band">
-        <div>
-          <div class="band-label"><b>${r.k}</b><span>${fmtR(r.r)}</span></div>
-          <div class="band-bar f-${r.s}" style="color:${r.c};width:${Math.max(r.v/max*100,1.5)}%"></div>
-        </div>
-        <div class="band-amt">${fmt(r.v)}</div>
-      </div>`).join('');
-    document.getElementById('total').textContent = fmt(total);
-    document.getElementById('stack-ctx').textContent = (perM2 ? sf.toLocaleString()+' sf' : units+' units');
-    document.getElementById('perunit').textContent = units && !perM2 ? fmt(total/units)+' / unit' : '';
-    document.getElementById('persf').textContent = perM2 && sf ? fmt(total/sf)+' / sf' : '';
-    return;
-  }
-
-  const rows = [];
-  rows.push({k:'Water DCC', c:'var(--water)', v:DATA.water[form][yi]*qty, r:DATA.water[form][yi], s:'verified', n:'Metro Vancouver, region-wide'});
-  rows.push({k:'Liquid waste DCC', c:'var(--sanitary)', v:DATA.liquidWaste[area][form][yi]*qty, r:DATA.liquidWaste[area][form][yi], s:'verified', n:area});
-  rows.push({k:'Parkland DCC', c:'var(--parkland)', v:DATA.parkland[form][yi]*qty, r:DATA.parkland[form][yi], s:'verified', n:'Metro Vancouver, region-wide'});
-
-  const tlCat = DATA.landUseToTranslink[form], tlR = DATA.translink[tlCat][Math.min(yi,1)];
-  rows.push({k:'TransLink DCC', c:'var(--transit)', v:tlR*qty, r:tlR, s:'verified', n:tlCat + (yi>1?' (2026 rate; 2027 unpublished)':'')});
-
-  let warn = '';
-  if(muni === 'Vancouver'){
-    const [cw,ut] = DATA.vancouverDCL[band];
-    rows.push({k:'City-wide DCL', c:'var(--levy)', v:cw*m2, r:cw, s:'verified', n:band});
-    rows.push({k:'Utilities DCL', c:'var(--levy)', v:ut*m2, r:ut, s:'verified', n:band});
-  } else if(muni === 'Burnaby'){
-    const map = {'Residential Lot Development Unit':'Low density residential (SFD / duplex)',
-                 'Townhouse Dwelling Unit':'Medium density residential (townhouse / multiplex)',
-                 'Apartment Dwelling Unit':'High density residential (apartment)'};
-    const key = map[form];
-    if(key){
-      const dcc = DATA.fees.find(f => f.muni==='Burnaby' && f.program==='DCC' && f.landUse===key);
-      const acc = DATA.fees.find(f => f.muni==='Burnaby' && f.program==='ACC' && f.landUse===key);
-      if(dcc) rows.push({k:'Burnaby DCC', c:'var(--levy)', v:dcc.rate*qty, r:dcc.rate, s:'verified', n:key});
-      if(acc) rows.push({k:'Burnaby ACC', c:'var(--amenity)', v:acc.rate*qty, r:acc.rate, s:'verified', n:key});
-    } else {
-      const d = DATA.fees.find(f => f.muni==='Burnaby' && f.landUse==='Commercial');
-      if(d) rows.push({k:'Burnaby DCC', c:'var(--levy)', v:d.rate*m2, r:d.rate, s:'verified', n:'Commercial rate applied'});
-    }
-  } else if(muni === 'Surrey'){
-    rows.push({k:'Surrey DCC', c:'var(--levy)', v:0, r:0, s:'unverified', n:'Bylaw 21174 schedule not loaded'});
-    warn = 'Surrey&rsquo;s in-force bylaw is 21174 (May 2024) and its rate schedule blocks automated access, so no municipal DCC is included above. The 2026 rates in the register below are published but still awaiting provincial approval &mdash; they are not what you would pay today.';
-  } else {
-    rows.push({k:(muni.split(' ')[0]) + ' municipal fees', c:'var(--levy)', v:0, r:0, s:'unverified', n:'No verified rate loaded'});
-    warn = 'No municipal DCC has been verified for ' + muni + ' yet, so the total below covers regional charges only. Treat it as a floor, not an estimate.';
-  }
-
-  document.getElementById('calc-warn').innerHTML = warn ? '<div class="warnbox">' + warn + '</div>' : '';
-
-  const total = rows.reduce((s,r) => s + r.v, 0), max = Math.max(...rows.map(r => r.v), 1);
-  document.getElementById('bands').innerHTML = rows.map(r => `
-    <div class="band">
-      <div>
-        <div class="band-label"><b>${r.k}</b><span>${fmtR(r.r)}</span></div>
-        <div class="band-bar f-${r.s}" style="color:${r.c};width:${Math.max(r.v/max*100,1.5)}%"></div>
-      </div>
-      <div class="band-amt">${fmt(r.v)}</div>
-    </div>`).join('');
-  document.getElementById('total').textContent = fmt(total);
-  document.getElementById('stack-ctx').textContent = year + ' \u00b7 ' + (nonRes ? sf.toLocaleString() + ' sf' : units + ' units');
-  document.getElementById('perunit').textContent = units && !nonRes ? fmt(total/units) + ' / unit' : '';
-  document.getElementById('persf').textContent = sf ? fmt(total/sf) + ' / sf' : '';
-}
-['muni','form','units','area','year','band'].forEach(id =>
-  document.getElementById(id).addEventListener('input', calc));
-
-/* ---------- register table ---------- */
-function statusClass(s){
-  if(s === 'In effect') return ['p-force','In force'];
-  if(s.indexOf('Proposed') === 0) return ['p-prop','Proposed'];
-  if(s.indexOf('rates not loaded') > -1) return ['p-unver','Not loaded'];
-  return ['p-unver','Unverified'];
-}
-function renderTable(){
-  const m = fMuni.value, st = document.getElementById('f-status').value,
-        q = document.getElementById('f-text').value.trim().toLowerCase();
-  const rows = DATA.fees.filter(f => {
-    if(m && f.muni !== m) return false;
-    const inForce = f.status === 'In effect';
-    if(st === 'force' && !inForce) return false;
-    if(st === 'notforce' && inForce) return false;
-    if(q && (f.program + ' ' + f.landUse + ' ' + (f.bylaw||'')).toLowerCase().indexOf(q) < 0) return false;
-    return true;
-  });
-  document.getElementById('c-reg').textContent = rows.length + '/' + DATA.fees.length;
-  document.getElementById('tbl-empty').style.display = rows.length ? 'none' : '';
-  document.getElementById('tbl').innerHTML = rows.map(f => {
-    const [cls,lab] = statusClass(f.status);
-    const d = f.nextReview ? days(f.nextReview) : null;
-    const rev = d === null ? '&mdash;' : (d <= 0 ? '<span style="color:var(--alert)">overdue</span>'
-      : d <= 30 ? '<span style="color:var(--warn)">' + d + ' d</span>' : d + ' d');
-    return `<tr>
-      <td><span class="muni">${f.muni}</span>${f.bylaw?'<div class="sub">'+f.bylaw+'</div>':''}</td>
-      <td>${f.program}<div class="sub">${f.landUse}</div></td>
-      <td class="num">${f.rate ? fmtR(f.rate) : '&mdash;'}<div class="sub" style="font-family:var(--mono)">${f.rate?f.unit:'not loaded'}</div></td>
-      <td><span class="pill ${cls}">${lab}</span></td>
-      <td class="num">${rev}</td>
-    </tr>`; }).join('');
-}
-['f-muni','f-status','f-text'].forEach(id =>
-  document.getElementById(id).addEventListener('input', renderTable));
-
-/* ---------- timeline ---------- */
-document.getElementById('timeline').innerHTML = DATA.upcoming.map(u => {
-  const d = days(u.date), soon = d >= 0 && d <= 30;
-  return `<div class="ev">
-    <div class="ev-when ${soon?'soon':''}"><b>${d < 0 ? 'past' : d}</b>${d < 0 ? u.date : 'days away'}</div>
-    <div><h3>${u.what}</h3><p>${u.detail}</p></div>
-  </div>`; }).join('');
-
-/* ---------- change log ---------- */
-function logClass(s){
-  const k = s.toLowerCase();
-  if(k === 'corrected') return 'p-corrected';
-  if(k === 'new') return 'p-new';
-  if(k === 'changed') return 'p-changed';
-  if(k === 'removed') return 'p-removed';
-  if(k.indexOf('review') > -1 || k.indexOf('failed') > -1) return 'p-review';
-  return 'p-info';
-}
-function renderLog(){
-  const log = (DATA.changeLog || []).slice().reverse();
-  document.getElementById('c-log').textContent = log.length;
-  document.getElementById('log-empty').style.display = log.length ? 'none' : '';
-  document.getElementById('log').innerHTML = log.map(e => {
-    const from = (e.old === '' || e.old === null) ? '' : '<span class="from">' + e.old + '</span> ';
-    const to = (e.new === '' || e.new === null) ? '' : '<span class="to">' + e.new + '</span>';
-    const delta = (from || to) ? '<div class="delta">' + from + to + '</div>' : '';
-    return `<tr>
-      <td class="when">${e.ts}</td>
-      <td>${e.field}<div class="sub">${e.note || ''}</div></td>
-      <td>${delta}<div class="sub" style="font-family:var(--mono)">${e.source}</div></td>
-      <td><span class="pill ${logClass(e.status)}">${e.status}</span></td>
-    </tr>`; }).join('');
-}
-
-/* ---------- sources ---------- */
-function renderSources(){
-  document.getElementById('c-src').textContent = DATA.sources.length;
-  document.getElementById('src').innerHTML = DATA.sources.map(s => `<tr>
-    <td><span class="muni">${s.jurisdiction}</span>
-        <div class="src-url"><a href="${s.url}" target="_blank" rel="noopener">${s.url.replace(/^https?:\/\//,'')}</a></div></td>
-    <td>${s.fee_types}<div class="sub">${s.update_cadence}</div></td>
-    <td>${s.format}</td>
-    <td>${s.reliability}</td>
-  </tr>`).join('');
-}
-
-/* ---------- news ---------- */
-function renderNews(){
-  const tag = document.getElementById('n-tag').value,
-        imp = document.getElementById('n-imp').value;
-  const all = DATA.news || [];
-  const items = all.filter(n => (!tag || n.tag === tag) && (!imp || n.impact === imp));
-  document.getElementById('c-news').textContent = all.length;
-  document.getElementById('news-empty').style.display = items.length ? 'none' : '';
-  document.getElementById('news').innerHTML = items.map(n => `
-    <div class="news-item">
-      <div class="news-when">${n.date || 'undated'}<br><span class="tag">${n.tag}</span></div>
-      <div class="imp-${n.impact}">
-        <h3><a href="${n.url}" target="_blank" rel="noopener">${n.title}</a></h3>
-        <div class="src">${n.source}${n.impact === 'unreviewed' ? ' · UNREVIEWED' : ''}</div>
-        <p>${n.summary}</p>
-        ${n.affects ? '<div class="news-affects"><b>Affects:</b> ' + n.affects + '</div>' : ''}
-      </div>
-    </div>`).join('');
-}
-(function(){
-  const tags = [...new Set((DATA.news || []).map(n => n.tag))].sort();
-  const sel = document.getElementById('n-tag');
-  tags.forEach(t => sel.add(new Option(t, t)));
-  ['n-tag','n-imp'].forEach(id =>
-    document.getElementById(id).addEventListener('input', renderNews));
-})();
-
-/* ---------- tabs ---------- */
-const tabs = [['tab-reg','p-reg'],['tab-news','p-news'],['tab-log','p-log'],['tab-src','p-src']];
-tabs.forEach(([tid,pid]) => {
-  document.getElementById(tid).addEventListener('click', () => {
-    tabs.forEach(([t2,p2]) => {
-      const on = t2 === tid;
-      document.getElementById(t2).setAttribute('aria-selected', on);
-      document.getElementById(p2).hidden = !on;
-    });
-  });
-});
-
-calc(); renderTable(); renderNews(); renderLog(); renderSources();
-</script>
-</body></html>
+Click the Actions tab → click the failed run → the log shows which step
+broke. Usually it's a municipal website being down, and the next morning
+fixes itself. If it keeps failing, copy the error text and paste it to
+Claude.
