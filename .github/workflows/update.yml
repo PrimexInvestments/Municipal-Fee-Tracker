@@ -18,7 +18,7 @@ jobs:
         continue-on-error: true
       - run: python apply_changes.py --yes
         continue-on-error: true
-      - run: python build_site.py
+      - run: echo "skipping rebuild"
       - name: Save and publish
         run: |
           git config user.name "fee-tracker-bot"
