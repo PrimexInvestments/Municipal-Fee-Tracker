@@ -1,0 +1,82 @@
+[
+ {
+  "date": "2026-07-23",
+  "source": "Metro Vancouver",
+  "tag": "Regional",
+  "title": "DCC rollback bylaw goes to three regional boards for adoption July 24",
+  "url": "https://metrovancouver.org/about-us/development-cost-charges",
+  "summary": "The Province has approved Metro Vancouver's request to revise its DCC bylaws. The regional district, water district and sewerage district boards all vote July 24; if adopted, 2026 rates revert to 2025 levels the same day, 2027 increases shrink, and the 1% assist factor slips to 2029. No rebates for fees already paid.",
+  "impact": "high",
+  "affects": "Every regional DCC line in the register"
+ },
+ {
+  "date": "2026-07-10",
+  "source": "Storeys",
+  "tag": "Vancouver",
+  "title": "Vancouver unveils ACC program and updated DCL program for Sept 30 start",
+  "url": "https://howardchai.substack.com/p/vancouver-amenity-cost-charges-acc-program-dcl-update-2026",
+  "summary": "Council reviewed the new Amenity Cost Charge by-law and updated DCL by-law, both taking effect September 30. The ACC has built-in rate increases for four years and isn't expected to be amended until 2030. Applications in stream before Sept 30 get up to five years of protection; after that, a rolling 12-month rate protection applies from each change.",
+  "impact": "high",
+  "affects": "Vancouver ACC rows (currently marked proposed)"
+ },
+ {
+  "date": "2026-07-15",
+  "source": "UDI",
+  "tag": "Regional",
+  "title": "Province extends in-stream DCC protection from 12 to 24 months",
+  "url": "https://udi.org/advocacy/updates/regional-metro-vancouver-dccs",
+  "summary": "Regulatory changes announced July 15 double the in-stream protection window for projects facing Metro Vancouver DCC increases, from one year to two. Projects with a precursor application filed before bylaw adoption now have 24 months to reach building permit under the old rates.",
+  "impact": "medium",
+  "affects": "Timing strategy for in-stream projects"
+ },
+ {
+  "date": "2026-06-16",
+  "source": "City of Surrey",
+  "tag": "Surrey",
+  "title": "Surrey ACC and bonus density bylaws now in force",
+  "url": "https://www.surrey.ca/renovating-building-development/land-planning-development/amenity-cost-charges-bonus-density",
+  "summary": "Council adopted Surrey's ACC and bonus density bylaws June 15; both took effect June 16. The ACC program replaces most previous CAC practices city-wide. A one-year transition window runs to June 14, 2027 for eligible in-stream applications. NOTE: this register does not yet carry Surrey's ACC rates -- flagged for a primary-source pass.",
+  "impact": "high",
+  "affects": "Missing from register - Surrey ACC rates need loading"
+ },
+ {
+  "date": "2026-06-08",
+  "source": "VanPlex",
+  "tag": "Regional",
+  "title": "Six BC jurisdictions have cut development fees in 2026",
+  "url": "https://www.vanplex.ca/blog/six-bc-cities-multiplex-fee-cuts-2026",
+  "summary": "An analysis counts Surrey, Vancouver, Metro Vancouver, Victoria, Port Moody and Kelowna as having cut or proposed cuts to development fees this year, while thirteen GVRD municipalities haven't moved. Stacked savings on a Vancouver multiplex land between 0.4% and 2% of project cost -- meaningful but not enough to make marginal lots viable.",
+  "impact": "low",
+  "affects": "Context for regional comparisons"
+ },
+ {
+  "date": "2026-05-13",
+  "source": "City of Surrey",
+  "tag": "Surrey",
+  "title": "Surrey sends lower 2026 DCC bylaw to the Province",
+  "url": "https://www.surrey.ca/news-events/news/surrey-propose-even-lower-development-cost-charges-boost-housing-supply",
+  "summary": "Council approved an updated DCC bylaw for provincial submission, cutting residential rates roughly 7-9% from 2024 levels and simplifying the fee structure to charge by building form rather than zoning. SSMUH drops to $51,633/unit. Still awaiting Inspector of Municipalities approval -- the in-force bylaw remains 21174 from May 2024.",
+  "impact": "medium",
+  "affects": "Surrey proposed rows in the register"
+ },
+ {
+  "date": "2026-05-07",
+  "source": "Globe and Mail",
+  "tag": "Regional",
+  "title": "Builders welcome the Metro Vancouver rollback",
+  "url": "https://www.theglobeandmail.com/real-estate/article-builders-welcome-rollback-of-metro-vancouvers-development-charges/",
+  "summary": "Industry reaction to the April board decision. Developers describe a narrow two-year window for projects near viability -- likely rentals -- to move, with one estimating the rollback saves $2-2.5M on a typical 30-storey tower. The subdued presale market limits how many projects can respond.",
+  "impact": "low",
+  "affects": "Market context"
+ },
+ {
+  "date": "2026-04-15",
+  "source": "Daily Hive",
+  "tag": "Regional",
+  "title": "Board weighs a $389M revenue gap to fund the rollback",
+  "url": "https://dailyhive.com/vancouver/metro-vancouver-regional-district-development-cost-charges-dccs-cuts-2026",
+  "summary": "Staff estimated the rollback would cut $270.5M from water, $75.5M from sewerage and $43M from parkland budgets over 2027-2031. Industry argued the forecast overstates the loss because it assumes development activity that won't materialize at current rates -- Q1 presales across the region totalled 87 units against a decade average near 3,900.",
+  "impact": "low",
+  "affects": "Background on why rates moved"
+ }
+]

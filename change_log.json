@@ -1,0 +1,79 @@
+[
+ {
+  "ts": "2026-07-23 09:00",
+  "source": "(seed)",
+  "field": "initial load",
+  "old": "",
+  "new": "",
+  "status": "OK",
+  "note": "Baseline built from primary sources: Metro Vancouver DCC page and the City of Vancouver DCL Bulletin (amended 2026-01-22).",
+  "applied": true,
+  "appliedAt": "2026-07-23 15:00"
+ },
+ {
+  "ts": "2026-07-23 12:00",
+  "source": "vancouver_dcl_bulletin",
+  "field": "Utilities DCL",
+  "old": "39.06",
+  "new": "31.25",
+  "status": "CORRECTED",
+  "note": "First pass took $39.06/m2 from an industry blog. The City's own DCL Bulletin Table 1 gives $31.25/m2 for the at-or-below 1.2 FSR band. The blog figure was wrong.",
+  "applied": true,
+  "appliedAt": "2026-07-23 15:00"
+ },
+ {
+  "ts": "2026-07-23 12:00",
+  "source": "vancouver_dcl_bulletin",
+  "field": "DCL rate structure",
+  "old": "flat",
+  "new": "3 bands",
+  "status": "CORRECTED",
+  "note": "First pass treated the residential DCL as one flat rate. It is banded by density: $81.13/m2 at or below 1.2 FSR, $174.67 from 1.2-1.5 FSR, $349.54 above 1.5 FSR. Using the lowest band for an apartment project understated Vancouver DCLs roughly 4x.",
+  "applied": true,
+  "appliedAt": "2026-07-23 15:00"
+ },
+ {
+  "ts": "2026-07-23 12:00",
+  "source": "vancouver_dcl_bulletin",
+  "field": "TransLink DCC",
+  "old": "",
+  "new": "added",
+  "status": "NEW",
+  "note": "TransLink DCC found in Bulletin Appendix E and added to the calculator. Only 2025 and 2026 rates are published.",
+  "applied": true,
+  "appliedAt": "2026-07-23 15:00"
+ },
+ {
+  "ts": "2026-07-23 15:00",
+  "source": "burnaby_dcc",
+  "field": "Burnaby DCC / ACC",
+  "old": "38.54",
+  "new": "full table",
+  "status": "CORRECTED",
+  "note": "The $38.54/unit townhouse figure came from a Surrey comparator report and was wrong. Burnaby's own rate table gives townhouse DCC $37,423/unit plus ACC $18,874. Full DCC+ACC schedule loaded, plus Community Benefit Bonus density rates.",
+  "applied": true,
+  "appliedAt": "2026-07-23 15:00"
+ },
+ {
+  "ts": "2026-07-23 15:00",
+  "source": "surrey_dcc",
+  "field": "Surrey status",
+  "old": "in effect",
+  "new": "not in force",
+  "status": "CORRECTED",
+  "note": "Surrey's own site names Bylaw 21174 (May 2024) as current. The 2026 rates are with the Inspector of Municipalities and not in force. Split into separate proposed rows; in-force schedule left unloaded rather than guessed.",
+  "applied": true,
+  "appliedAt": "2026-07-23 15:00"
+ },
+ {
+  "ts": "2026-07-23 15:00",
+  "source": "(manual)",
+  "field": "Richmond / New West / Coquitlam / Langley",
+  "old": "partial",
+  "new": "removed",
+  "status": "REMOVED",
+  "note": "Unverified third-hand figures removed rather than carried. These four jurisdictions now show no rate and are flagged for a primary-source pass.",
+  "applied": true,
+  "appliedAt": "2026-07-23 15:00"
+ }
+]
