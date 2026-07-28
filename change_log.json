@@ -9811,5 +9811,239 @@
   "new": "",
   "status": "INFO",
   "note": "No fee-like figures found; rates may be in a linked PDF."
+ },
+ {
+  "ts": "2026-07-28 18:54",
+  "source": "metro_van_dcc",
+  "field": "(fetch)",
+  "old": "",
+  "new": "",
+  "status": "FETCH FAILED",
+  "note": "ReadTimeout: HTTPSConnectionPool(host='metrovancouver.org', port=443): Read timed out. (read timeout=30)  URL: https://metrovancouver.org/about-us/development-cost-charges"
+ },
+ {
+  "ts": "2026-07-28 18:54",
+  "source": "vancouver_dcl",
+  "field": "(fetch)",
+  "old": "",
+  "new": "",
+  "status": "FETCH FAILED",
+  "note": "PermissionError: robots.txt disallows https://vancouver.ca/home-property-development/development-cost-levies.aspx  URL: https://vancouver.ca/home-property-development/development-cost-levies.aspx"
+ },
+ {
+  "ts": "2026-07-28 18:54",
+  "source": "vancouver_dcl_bulletin",
+  "field": "(fetch)",
+  "old": "",
+  "new": "",
+  "status": "FETCH FAILED",
+  "note": "PermissionError: robots.txt disallows https://guidelines.vancouver.ca/bulletins/bulletin-development-cost-levies.pdf  URL: https://guidelines.vancouver.ca/bulletins/bulletin-development-cost-levies.pdf"
+ },
+ {
+  "ts": "2026-07-28 18:54",
+  "source": "vancouver_opendata_dcl_areas",
+  "field": "(fetch)",
+  "old": "",
+  "new": "",
+  "status": "FETCH FAILED",
+  "note": "PermissionError: robots.txt disallows https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/development-cost-levy-dcl-areas/records  URL: https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/development-cost-levy-dcl-areas/records"
+ },
+ {
+  "ts": "2026-07-28 18:54",
+  "source": "surrey_dcc",
+  "field": "(warning)",
+  "old": "",
+  "new": "",
+  "status": "INFO",
+  "note": "Generic parser: 0 candidate figures. NEEDS REVIEW -- no structural parsing available for this source. Consider writing a dedicated adapter."
+ },
+ {
+  "ts": "2026-07-28 18:54",
+  "source": "surrey_dcc",
+  "field": "(warning)",
+  "old": "",
+  "new": "",
+  "status": "INFO",
+  "note": "No fee-like figures found; rates may be in a linked PDF."
+ },
+ {
+  "ts": "2026-07-28 18:54",
+  "source": "burnaby_dcc",
+  "field": "(fetch)",
+  "old": "",
+  "new": "",
+  "status": "FETCH FAILED",
+  "note": "PermissionError: robots.txt disallows https://www.burnaby.ca/services-and-payments/building-and-development/development-cost-charges  URL: https://www.burnaby.ca/services-and-payments/building-and-development/development-cost-charges"
+ },
+ {
+  "ts": "2026-07-28 18:54",
+  "source": "richmond_dcc",
+  "field": "(fetch)",
+  "old": "",
+  "new": "",
+  "status": "FETCH FAILED",
+  "note": "HTTPError: 404 Client Error: Not Found for url: https://www.richmond.ca/plandev/planning2/developmentcostcharges.htm  URL: https://www.richmond.ca/plandev/planning2/developmentcostcharges.htm"
+ },
+ {
+  "ts": "2026-07-28 18:54",
+  "source": "new_west_dcc",
+  "field": "(fetch)",
+  "old": "",
+  "new": "",
+  "status": "FETCH FAILED",
+  "note": "HTTPError: 404 Client Error: Not Found for url: https://www.newwestcity.ca/business-and-development/development-cost-charges  URL: https://www.newwestcity.ca/business-and-development/development-cost-charges"
+ },
+ {
+  "ts": "2026-07-28 18:54",
+  "source": "coquitlam_dcc",
+  "field": "(fetch)",
+  "old": "",
+  "new": "",
+  "status": "FETCH FAILED",
+  "note": "HTTPError: 404 Client Error: Not Found for url: https://www.coquitlam.ca/291/Development-Cost-Charges  URL: https://www.coquitlam.ca/291/Development-Cost-Charges"
+ },
+ {
+  "ts": "2026-07-28 18:54",
+  "source": "translink_dcc",
+  "field": "(fetch)",
+  "old": "",
+  "new": "",
+  "status": "FETCH FAILED",
+  "note": "HTTPError: 404 Client Error: Page not found for url: https://www.translink.ca/about-us/doing-business-with-translink/development-cost-charges  URL: https://www.translink.ca/about-us/doing-business-with-translink/development-cost-charges"
+ },
+ {
+  "ts": "2026-07-28 18:54",
+  "source": "victoria_dcc",
+  "field": "(fetch)",
+  "old": "",
+  "new": "",
+  "status": "FETCH FAILED",
+  "note": "HTTPError: 404 Client Error: Not Found for url: https://www.victoria.ca/city-government/bylaws/development-cost-charges  URL: https://www.victoria.ca/city-government/bylaws/development-cost-charges"
+ },
+ {
+  "ts": "2026-07-28 18:54",
+  "source": "courtenay_dcc",
+  "field": "(low-confidence rates)",
+  "old": "",
+  "new": 4,
+  "status": "NEEDS REVIEW",
+  "note": "4 figures parsed at low confidence. Open https://www.courtenay.ca/dcc and verify by hand."
+ },
+ {
+  "ts": "2026-07-28 18:54",
+  "source": "courtenay_dcc",
+  "field": "(warning)",
+  "old": "",
+  "new": "",
+  "status": "INFO",
+  "note": "Generic parser: 4 candidate figures. NEEDS REVIEW -- no structural parsing available for this source. Consider writing a dedicated adapter."
+ },
+ {
+  "ts": "2026-07-28 18:54",
+  "source": "nanaimo_dcc",
+  "field": "(warning)",
+  "old": "",
+  "new": "",
+  "status": "INFO",
+  "note": "Generic parser: 0 candidate figures. NEEDS REVIEW -- no structural parsing available for this source. Consider writing a dedicated adapter."
+ },
+ {
+  "ts": "2026-07-28 18:54",
+  "source": "nanaimo_dcc",
+  "field": "(warning)",
+  "old": "",
+  "new": "",
+  "status": "INFO",
+  "note": "No fee-like figures found; rates may be in a linked PDF."
+ },
+ {
+  "ts": "2026-07-28 18:54",
+  "source": "parksville_dcc",
+  "field": "(warning)",
+  "old": "",
+  "new": "",
+  "status": "INFO",
+  "note": "Generic parser: 0 candidate figures. NEEDS REVIEW -- no structural parsing available for this source. Consider writing a dedicated adapter."
+ },
+ {
+  "ts": "2026-07-28 18:54",
+  "source": "parksville_dcc",
+  "field": "(warning)",
+  "old": "",
+  "new": "",
+  "status": "INFO",
+  "note": "No fee-like figures found; rates may be in a linked PDF."
+ },
+ {
+  "ts": "2026-07-28 18:54",
+  "source": "langford_dcc",
+  "field": "(low-confidence rates)",
+  "old": "",
+  "new": 49,
+  "status": "NEEDS REVIEW",
+  "note": "49 figures parsed at low confidence. Open https://langford.ca/wp-content/uploads/2020/10/DCC-Summary-Sheet.pdf and verify by hand."
+ },
+ {
+  "ts": "2026-07-28 18:54",
+  "source": "langford_dcc",
+  "field": "(warning)",
+  "old": "",
+  "new": "",
+  "status": "INFO",
+  "note": "Extracted 49 candidate rows from PDF at LOW confidence. PDF layout parsing is unreliable -- verify every figure by hand."
+ },
+ {
+  "ts": "2026-07-28 18:54",
+  "source": "colwood_dcc",
+  "field": "(low-confidence rates)",
+  "old": "",
+  "new": 38,
+  "status": "NEEDS REVIEW",
+  "note": "38 figures parsed at low confidence. Open https://www.colwood.ca/sites/default/files/2025-01/DEVELOPMENT%20COST%20CHARGES%20(January%202025).pdf and verify by hand."
+ },
+ {
+  "ts": "2026-07-28 18:54",
+  "source": "colwood_dcc",
+  "field": "(warning)",
+  "old": "",
+  "new": "",
+  "status": "INFO",
+  "note": "Extracted 38 candidate rows from PDF at LOW confidence. PDF layout parsing is unreliable -- verify every figure by hand."
+ },
+ {
+  "ts": "2026-07-28 18:54",
+  "source": "comox_dcc",
+  "field": "(warning)",
+  "old": "",
+  "new": "",
+  "status": "INFO",
+  "note": "Generic parser: 0 candidate figures. NEEDS REVIEW -- no structural parsing available for this source. Consider writing a dedicated adapter."
+ },
+ {
+  "ts": "2026-07-28 18:54",
+  "source": "comox_dcc",
+  "field": "(warning)",
+  "old": "",
+  "new": "",
+  "status": "INFO",
+  "note": "No fee-like figures found; rates may be in a linked PDF."
+ },
+ {
+  "ts": "2026-07-28 18:54",
+  "source": "duncan_dcc",
+  "field": "(warning)",
+  "old": "",
+  "new": "",
+  "status": "INFO",
+  "note": "Generic parser: 0 candidate figures. NEEDS REVIEW -- no structural parsing available for this source. Consider writing a dedicated adapter."
+ },
+ {
+  "ts": "2026-07-28 18:54",
+  "source": "duncan_dcc",
+  "field": "(warning)",
+  "old": "",
+  "new": "",
+  "status": "INFO",
+  "note": "No fee-like figures found; rates may be in a linked PDF."
  }
 ]
