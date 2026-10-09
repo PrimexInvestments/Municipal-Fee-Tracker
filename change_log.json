@@ -92694,7 +92694,9 @@
   "old": 16926.0,
   "new": 10952.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92703,7 +92705,9 @@
   "old": 19714.0,
   "new": 15532.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92712,7 +92716,9 @@
   "old": 15206.0,
   "new": 9839.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92721,7 +92727,9 @@
   "old": 17710.0,
   "new": 13954.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92730,7 +92738,9 @@
   "old": 10495.0,
   "new": 6791.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92739,7 +92749,9 @@
   "old": 12223.0,
   "new": 9630.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92748,7 +92760,9 @@
   "old": 8.19,
   "new": 5.3,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92757,7 +92771,9 @@
   "old": 9.54,
   "new": 7.51,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92793,7 +92809,9 @@
   "old": 11290.0,
   "new": 10498.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92802,7 +92820,9 @@
   "old": 12476.0,
   "new": 11553.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92811,7 +92831,9 @@
   "old": 10316.0,
   "new": 9593.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92820,7 +92842,9 @@
   "old": 11400.0,
   "new": 10557.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92829,7 +92853,9 @@
   "old": 6772.0,
   "new": 6298.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92838,7 +92864,9 @@
   "old": 7484.0,
   "new": 6930.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92847,7 +92875,9 @@
   "old": 5.7,
   "new": 5.3,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92856,7 +92886,9 @@
   "old": 6.3,
   "new": 5.83,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92865,7 +92897,9 @@
   "old": 10478.0,
   "new": 9760.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92874,7 +92908,9 @@
   "old": 11557.0,
   "new": 10718.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92883,7 +92919,9 @@
   "old": 9658.0,
   "new": 8996.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92892,7 +92930,9 @@
   "old": 10652.0,
   "new": 9879.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92901,7 +92941,9 @@
   "old": 6448.0,
   "new": 6005.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92910,7 +92952,9 @@
   "old": 7111.0,
   "new": 6595.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92919,7 +92963,9 @@
   "old": 5.37,
   "new": 5.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92928,7 +92974,9 @@
   "old": 5.92,
   "new": 5.49,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92937,7 +92985,9 @@
   "old": 6152.0,
   "new": 5683.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92946,7 +92996,9 @@
   "old": 6855.0,
   "new": 6308.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92955,7 +93007,9 @@
   "old": 5333.0,
   "new": 4927.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92964,7 +93018,9 @@
   "old": 5943.0,
   "new": 5469.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92973,7 +93029,9 @@
   "old": 3806.0,
   "new": 3516.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92982,7 +93040,9 @@
   "old": 4241.0,
   "new": 3903.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -92991,7 +93051,9 @@
   "old": 2.76,
   "new": 2.55,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -93000,7 +93062,9 @@
   "old": 3.08,
   "new": 2.83,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -93009,7 +93073,9 @@
   "old": 12311.0,
   "new": 11443.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -93018,7 +93084,9 @@
   "old": 13613.0,
   "new": 12601.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -93027,7 +93095,9 @@
   "old": 10775.0,
   "new": 10015.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -93036,7 +93106,9 @@
   "old": 11914.0,
   "new": 11028.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -93045,7 +93117,9 @@
   "old": 7855.0,
   "new": 7302.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -93054,7 +93128,9 @@
   "old": 8686.0,
   "new": 8040.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -93063,7 +93139,9 @@
   "old": 5.82,
   "new": 5.41,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -93072,7 +93150,9 @@
   "old": 6.43,
   "new": 5.95,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -93108,7 +93188,9 @@
   "old": 981.0,
   "new": 491.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -93117,7 +93199,9 @@
   "old": 1943.0,
   "new": 1237.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -93126,7 +93210,9 @@
   "old": 884.0,
   "new": 442.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -93135,7 +93221,9 @@
   "old": 1751.0,
   "new": 1114.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -93144,7 +93232,9 @@
   "old": 606.0,
   "new": 303.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -93153,7 +93243,9 @@
   "old": 1199.0,
   "new": 763.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -93162,7 +93254,9 @@
   "old": 0.48,
   "new": 0.24,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -93171,7 +93265,9 @@
   "old": 0.94,
   "new": 0.6,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-04 18:00",
@@ -93855,7 +93951,9 @@
   "old": 16926.0,
   "new": 10952.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -93864,7 +93962,9 @@
   "old": 19714.0,
   "new": 15532.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -93873,7 +93973,9 @@
   "old": 15206.0,
   "new": 9839.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -93882,7 +93984,9 @@
   "old": 17710.0,
   "new": 13954.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -93891,7 +93995,9 @@
   "old": 10495.0,
   "new": 6791.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -93900,7 +94006,9 @@
   "old": 12223.0,
   "new": 9630.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -93909,7 +94017,9 @@
   "old": 8.19,
   "new": 5.3,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -93918,7 +94028,9 @@
   "old": 9.54,
   "new": 7.51,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -93954,7 +94066,9 @@
   "old": 11290.0,
   "new": 10498.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -93963,7 +94077,9 @@
   "old": 12476.0,
   "new": 11553.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -93972,7 +94088,9 @@
   "old": 10316.0,
   "new": 9593.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -93981,7 +94099,9 @@
   "old": 11400.0,
   "new": 10557.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -93990,7 +94110,9 @@
   "old": 6772.0,
   "new": 6298.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -93999,7 +94121,9 @@
   "old": 7484.0,
   "new": 6930.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94008,7 +94132,9 @@
   "old": 5.7,
   "new": 5.3,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94017,7 +94143,9 @@
   "old": 6.3,
   "new": 5.83,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94026,7 +94154,9 @@
   "old": 10478.0,
   "new": 9760.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94035,7 +94165,9 @@
   "old": 11557.0,
   "new": 10718.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94044,7 +94176,9 @@
   "old": 9658.0,
   "new": 8996.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94053,7 +94187,9 @@
   "old": 10652.0,
   "new": 9879.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94062,7 +94198,9 @@
   "old": 6448.0,
   "new": 6005.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94071,7 +94209,9 @@
   "old": 7111.0,
   "new": 6595.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94080,7 +94220,9 @@
   "old": 5.37,
   "new": 5.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94089,7 +94231,9 @@
   "old": 5.92,
   "new": 5.49,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94098,7 +94242,9 @@
   "old": 6152.0,
   "new": 5683.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94107,7 +94253,9 @@
   "old": 6855.0,
   "new": 6308.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94116,7 +94264,9 @@
   "old": 5333.0,
   "new": 4927.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94125,7 +94275,9 @@
   "old": 5943.0,
   "new": 5469.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94134,7 +94286,9 @@
   "old": 3806.0,
   "new": 3516.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94143,7 +94297,9 @@
   "old": 4241.0,
   "new": 3903.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94152,7 +94308,9 @@
   "old": 2.76,
   "new": 2.55,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94161,7 +94319,9 @@
   "old": 3.08,
   "new": 2.83,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94170,7 +94330,9 @@
   "old": 12311.0,
   "new": 11443.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94179,7 +94341,9 @@
   "old": 13613.0,
   "new": 12601.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94188,7 +94352,9 @@
   "old": 10775.0,
   "new": 10015.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94197,7 +94363,9 @@
   "old": 11914.0,
   "new": 11028.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94206,7 +94374,9 @@
   "old": 7855.0,
   "new": 7302.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94215,7 +94385,9 @@
   "old": 8686.0,
   "new": 8040.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94224,7 +94396,9 @@
   "old": 5.82,
   "new": 5.41,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94233,7 +94407,9 @@
   "old": 6.43,
   "new": 5.95,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94269,7 +94445,9 @@
   "old": 981.0,
   "new": 491.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94278,7 +94456,9 @@
   "old": 1943.0,
   "new": 1237.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94287,7 +94467,9 @@
   "old": 884.0,
   "new": 442.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94296,7 +94478,9 @@
   "old": 1751.0,
   "new": 1114.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94305,7 +94489,9 @@
   "old": 606.0,
   "new": 303.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94314,7 +94500,9 @@
   "old": 1199.0,
   "new": 763.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94323,7 +94511,9 @@
   "old": 0.48,
   "new": 0.24,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -94332,7 +94522,9 @@
   "old": 0.94,
   "new": 0.6,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-05 21:28",
@@ -95016,7 +95208,9 @@
   "old": 16926.0,
   "new": 10952.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95025,7 +95219,9 @@
   "old": 19714.0,
   "new": 15532.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95034,7 +95230,9 @@
   "old": 15206.0,
   "new": 9839.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95043,7 +95241,9 @@
   "old": 17710.0,
   "new": 13954.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95052,7 +95252,9 @@
   "old": 10495.0,
   "new": 6791.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95061,7 +95263,9 @@
   "old": 12223.0,
   "new": 9630.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95070,7 +95274,9 @@
   "old": 8.19,
   "new": 5.3,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95079,7 +95285,9 @@
   "old": 9.54,
   "new": 7.51,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95115,7 +95323,9 @@
   "old": 11290.0,
   "new": 10498.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95124,7 +95334,9 @@
   "old": 12476.0,
   "new": 11553.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95133,7 +95345,9 @@
   "old": 10316.0,
   "new": 9593.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95142,7 +95356,9 @@
   "old": 11400.0,
   "new": 10557.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95151,7 +95367,9 @@
   "old": 6772.0,
   "new": 6298.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95160,7 +95378,9 @@
   "old": 7484.0,
   "new": 6930.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95169,7 +95389,9 @@
   "old": 5.7,
   "new": 5.3,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95178,7 +95400,9 @@
   "old": 6.3,
   "new": 5.83,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95187,7 +95411,9 @@
   "old": 10478.0,
   "new": 9760.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95196,7 +95422,9 @@
   "old": 11557.0,
   "new": 10718.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95205,7 +95433,9 @@
   "old": 9658.0,
   "new": 8996.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95214,7 +95444,9 @@
   "old": 10652.0,
   "new": 9879.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95223,7 +95455,9 @@
   "old": 6448.0,
   "new": 6005.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95232,7 +95466,9 @@
   "old": 7111.0,
   "new": 6595.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95241,7 +95477,9 @@
   "old": 5.37,
   "new": 5.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95250,7 +95488,9 @@
   "old": 5.92,
   "new": 5.49,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95259,7 +95499,9 @@
   "old": 6152.0,
   "new": 5683.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95268,7 +95510,9 @@
   "old": 6855.0,
   "new": 6308.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95277,7 +95521,9 @@
   "old": 5333.0,
   "new": 4927.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95286,7 +95532,9 @@
   "old": 5943.0,
   "new": 5469.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95295,7 +95543,9 @@
   "old": 3806.0,
   "new": 3516.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95304,7 +95554,9 @@
   "old": 4241.0,
   "new": 3903.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95313,7 +95565,9 @@
   "old": 2.76,
   "new": 2.55,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95322,7 +95576,9 @@
   "old": 3.08,
   "new": 2.83,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95331,7 +95587,9 @@
   "old": 12311.0,
   "new": 11443.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95340,7 +95598,9 @@
   "old": 13613.0,
   "new": 12601.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95349,7 +95609,9 @@
   "old": 10775.0,
   "new": 10015.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95358,7 +95620,9 @@
   "old": 11914.0,
   "new": 11028.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95367,7 +95631,9 @@
   "old": 7855.0,
   "new": 7302.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95376,7 +95642,9 @@
   "old": 8686.0,
   "new": 8040.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95385,7 +95653,9 @@
   "old": 5.82,
   "new": 5.41,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95394,7 +95664,9 @@
   "old": 6.43,
   "new": 5.95,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95430,7 +95702,9 @@
   "old": 981.0,
   "new": 491.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95439,7 +95713,9 @@
   "old": 1943.0,
   "new": 1237.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95448,7 +95724,9 @@
   "old": 884.0,
   "new": 442.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95457,7 +95735,9 @@
   "old": 1751.0,
   "new": 1114.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95466,7 +95746,9 @@
   "old": 606.0,
   "new": 303.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95475,7 +95757,9 @@
   "old": 1199.0,
   "new": 763.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95484,7 +95768,9 @@
   "old": 0.48,
   "new": 0.24,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -95493,7 +95779,9 @@
   "old": 0.94,
   "new": 0.6,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-06 19:19",
@@ -96168,7 +96456,9 @@
   "old": 16926.0,
   "new": 10952.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96177,7 +96467,9 @@
   "old": 19714.0,
   "new": 15532.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96186,7 +96478,9 @@
   "old": 15206.0,
   "new": 9839.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96195,7 +96489,9 @@
   "old": 17710.0,
   "new": 13954.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96204,7 +96500,9 @@
   "old": 10495.0,
   "new": 6791.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96213,7 +96511,9 @@
   "old": 12223.0,
   "new": 9630.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96222,7 +96522,9 @@
   "old": 8.19,
   "new": 5.3,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96231,7 +96533,9 @@
   "old": 9.54,
   "new": 7.51,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96267,7 +96571,9 @@
   "old": 11290.0,
   "new": 10498.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96276,7 +96582,9 @@
   "old": 12476.0,
   "new": 11553.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96285,7 +96593,9 @@
   "old": 10316.0,
   "new": 9593.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96294,7 +96604,9 @@
   "old": 11400.0,
   "new": 10557.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96303,7 +96615,9 @@
   "old": 6772.0,
   "new": 6298.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96312,7 +96626,9 @@
   "old": 7484.0,
   "new": 6930.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96321,7 +96637,9 @@
   "old": 5.7,
   "new": 5.3,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96330,7 +96648,9 @@
   "old": 6.3,
   "new": 5.83,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96339,7 +96659,9 @@
   "old": 10478.0,
   "new": 9760.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96348,7 +96670,9 @@
   "old": 11557.0,
   "new": 10718.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96357,7 +96681,9 @@
   "old": 9658.0,
   "new": 8996.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96366,7 +96692,9 @@
   "old": 10652.0,
   "new": 9879.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96375,7 +96703,9 @@
   "old": 6448.0,
   "new": 6005.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96384,7 +96714,9 @@
   "old": 7111.0,
   "new": 6595.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96393,7 +96725,9 @@
   "old": 5.37,
   "new": 5.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96402,7 +96736,9 @@
   "old": 5.92,
   "new": 5.49,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96411,7 +96747,9 @@
   "old": 6152.0,
   "new": 5683.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96420,7 +96758,9 @@
   "old": 6855.0,
   "new": 6308.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96429,7 +96769,9 @@
   "old": 5333.0,
   "new": 4927.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96438,7 +96780,9 @@
   "old": 5943.0,
   "new": 5469.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96447,7 +96791,9 @@
   "old": 3806.0,
   "new": 3516.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96456,7 +96802,9 @@
   "old": 4241.0,
   "new": 3903.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96465,7 +96813,9 @@
   "old": 2.76,
   "new": 2.55,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96474,7 +96824,9 @@
   "old": 3.08,
   "new": 2.83,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96483,7 +96835,9 @@
   "old": 12311.0,
   "new": 11443.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96492,7 +96846,9 @@
   "old": 13613.0,
   "new": 12601.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96501,7 +96857,9 @@
   "old": 10775.0,
   "new": 10015.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96510,7 +96868,9 @@
   "old": 11914.0,
   "new": 11028.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96519,7 +96879,9 @@
   "old": 7855.0,
   "new": 7302.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96528,7 +96890,9 @@
   "old": 8686.0,
   "new": 8040.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96537,7 +96901,9 @@
   "old": 5.82,
   "new": 5.41,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96546,7 +96912,9 @@
   "old": 6.43,
   "new": 5.95,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96582,7 +96950,9 @@
   "old": 981.0,
   "new": 491.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96591,7 +96961,9 @@
   "old": 1943.0,
   "new": 1237.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96600,7 +96972,9 @@
   "old": 884.0,
   "new": 442.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96609,7 +96983,9 @@
   "old": 1751.0,
   "new": 1114.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96618,7 +96994,9 @@
   "old": 606.0,
   "new": 303.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96627,7 +97005,9 @@
   "old": 1199.0,
   "new": 763.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96636,7 +97016,9 @@
   "old": 0.48,
   "new": 0.24,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -96645,7 +97027,9 @@
   "old": 0.94,
   "new": 0.6,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-07 19:46",
@@ -97329,7 +97713,9 @@
   "old": 16926.0,
   "new": 10952.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97338,7 +97724,9 @@
   "old": 19714.0,
   "new": 15532.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97347,7 +97735,9 @@
   "old": 15206.0,
   "new": 9839.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97356,7 +97746,9 @@
   "old": 17710.0,
   "new": 13954.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97365,7 +97757,9 @@
   "old": 10495.0,
   "new": 6791.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97374,7 +97768,9 @@
   "old": 12223.0,
   "new": 9630.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97383,7 +97779,9 @@
   "old": 8.19,
   "new": 5.3,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97392,7 +97790,9 @@
   "old": 9.54,
   "new": 7.51,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97428,7 +97828,9 @@
   "old": 11290.0,
   "new": 10498.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97437,7 +97839,9 @@
   "old": 12476.0,
   "new": 11553.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97446,7 +97850,9 @@
   "old": 10316.0,
   "new": 9593.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97455,7 +97861,9 @@
   "old": 11400.0,
   "new": 10557.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97464,7 +97872,9 @@
   "old": 6772.0,
   "new": 6298.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97473,7 +97883,9 @@
   "old": 7484.0,
   "new": 6930.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97482,7 +97894,9 @@
   "old": 5.7,
   "new": 5.3,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97491,7 +97905,9 @@
   "old": 6.3,
   "new": 5.83,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97500,7 +97916,9 @@
   "old": 10478.0,
   "new": 9760.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97509,7 +97927,9 @@
   "old": 11557.0,
   "new": 10718.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97518,7 +97938,9 @@
   "old": 9658.0,
   "new": 8996.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97527,7 +97949,9 @@
   "old": 10652.0,
   "new": 9879.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97536,7 +97960,9 @@
   "old": 6448.0,
   "new": 6005.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97545,7 +97971,9 @@
   "old": 7111.0,
   "new": 6595.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97554,7 +97982,9 @@
   "old": 5.37,
   "new": 5.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97563,7 +97993,9 @@
   "old": 5.92,
   "new": 5.49,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97572,7 +98004,9 @@
   "old": 6152.0,
   "new": 5683.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97581,7 +98015,9 @@
   "old": 6855.0,
   "new": 6308.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97590,7 +98026,9 @@
   "old": 5333.0,
   "new": 4927.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97599,7 +98037,9 @@
   "old": 5943.0,
   "new": 5469.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97608,7 +98048,9 @@
   "old": 3806.0,
   "new": 3516.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97617,7 +98059,9 @@
   "old": 4241.0,
   "new": 3903.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97626,7 +98070,9 @@
   "old": 2.76,
   "new": 2.55,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97635,7 +98081,9 @@
   "old": 3.08,
   "new": 2.83,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97644,7 +98092,9 @@
   "old": 12311.0,
   "new": 11443.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97653,7 +98103,9 @@
   "old": 13613.0,
   "new": 12601.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97662,7 +98114,9 @@
   "old": 10775.0,
   "new": 10015.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97671,7 +98125,9 @@
   "old": 11914.0,
   "new": 11028.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97680,7 +98136,9 @@
   "old": 7855.0,
   "new": 7302.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97689,7 +98147,9 @@
   "old": 8686.0,
   "new": 8040.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97698,7 +98158,9 @@
   "old": 5.82,
   "new": 5.41,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97707,7 +98169,9 @@
   "old": 6.43,
   "new": 5.95,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97743,7 +98207,9 @@
   "old": 981.0,
   "new": 491.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97752,7 +98218,9 @@
   "old": 1943.0,
   "new": 1237.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97761,7 +98229,9 @@
   "old": 884.0,
   "new": 442.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97770,7 +98240,9 @@
   "old": 1751.0,
   "new": 1114.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97779,7 +98251,9 @@
   "old": 606.0,
   "new": 303.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97788,7 +98262,9 @@
   "old": 1199.0,
   "new": 763.0,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97797,7 +98273,9 @@
   "old": 0.48,
   "new": 0.24,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -97806,7 +98284,9 @@
   "old": 0.94,
   "new": 0.6,
   "status": "CHANGED",
-  "note": "High-confidence structural parse."
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
  },
  {
   "ts": "2026-10-08 19:41",
@@ -98449,6 +98929,1263 @@
  },
  {
   "ts": "2026-10-08 19:41",
+  "source": "duncan_dcc",
+  "field": "(warning)",
+  "old": "",
+  "new": "",
+  "status": "INFO",
+  "note": "No fee-like figures found; rates may be in a linked PDF."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Water DCC|Assist Factor|2026",
+  "old": "",
+  "new": 15.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Water DCC|Assist Factor|2026",
+  "old": "",
+  "new": 45.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Water DCC|Assist Factor|2027",
+  "old": "",
+  "new": 22.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Water DCC|Residential Lot Development Unit|2026",
+  "old": 16926.0,
+  "new": 10952.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Water DCC|Residential Lot Development Unit|2027",
+  "old": 19714.0,
+  "new": 15532.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Water DCC|Townhouse Dwelling Unit|2026",
+  "old": 15206.0,
+  "new": 9839.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Water DCC|Townhouse Dwelling Unit|2027",
+  "old": 17710.0,
+  "new": 13954.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Water DCC|Apartment Dwelling Unit|2026",
+  "old": 10495.0,
+  "new": 6791.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Water DCC|Apartment Dwelling Unit|2027",
+  "old": 12223.0,
+  "new": 9630.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Water DCC|Non-Residential (per square foot)|2026",
+  "old": 8.19,
+  "new": 5.3,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Water DCC|Non-Residential (per square foot)|2027",
+  "old": 9.54,
+  "new": 7.51,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Assist Factor|2026",
+  "old": "",
+  "new": 10.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Assist Factor|2026",
+  "old": "",
+  "new": 16.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Assist Factor|2027",
+  "old": "",
+  "new": 8.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Vancouver Sewerage Area (VSA)|Residential Lot Development Unit|2026",
+  "old": 11290.0,
+  "new": 10498.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Vancouver Sewerage Area (VSA)|Residential Lot Development Unit|2027",
+  "old": 12476.0,
+  "new": 11553.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Vancouver Sewerage Area (VSA)|Townhouse Dwelling Unit|2026",
+  "old": 10316.0,
+  "new": 9593.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Vancouver Sewerage Area (VSA)|Townhouse Dwelling Unit|2027",
+  "old": 11400.0,
+  "new": 10557.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Vancouver Sewerage Area (VSA)|Apartment Dwelling Unit|2026",
+  "old": 6772.0,
+  "new": 6298.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Vancouver Sewerage Area (VSA)|Apartment Dwelling Unit|2027",
+  "old": 7484.0,
+  "new": 6930.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Vancouver Sewerage Area (VSA)|Non-Residential (per square foot)|2026",
+  "old": 5.7,
+  "new": 5.3,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Vancouver Sewerage Area (VSA)|Non-Residential (per square foot)|2027",
+  "old": 6.3,
+  "new": 5.83,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|North Shore Sewerage Area (NSSA)|Residential Lot Development Unit|2026",
+  "old": 10478.0,
+  "new": 9760.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|North Shore Sewerage Area (NSSA)|Residential Lot Development Unit|2027",
+  "old": 11557.0,
+  "new": 10718.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|North Shore Sewerage Area (NSSA)|Townhouse Dwelling Unit|2026",
+  "old": 9658.0,
+  "new": 8996.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|North Shore Sewerage Area (NSSA)|Townhouse Dwelling Unit|2027",
+  "old": 10652.0,
+  "new": 9879.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|North Shore Sewerage Area (NSSA)|Apartment Dwelling Unit|2026",
+  "old": 6448.0,
+  "new": 6005.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|North Shore Sewerage Area (NSSA)|Apartment Dwelling Unit|2027",
+  "old": 7111.0,
+  "new": 6595.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|North Shore Sewerage Area (NSSA)|Non-Residential (per square foot)|2026",
+  "old": 5.37,
+  "new": 5.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|North Shore Sewerage Area (NSSA)|Non-Residential (per square foot)|2027",
+  "old": 5.92,
+  "new": 5.49,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Lulu Island West Sewerage Area (LIWSA)|Residential Lot Development Unit|2026",
+  "old": 6152.0,
+  "new": 5683.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Lulu Island West Sewerage Area (LIWSA)|Residential Lot Development Unit|2027",
+  "old": 6855.0,
+  "new": 6308.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Lulu Island West Sewerage Area (LIWSA)|Townhouse Dwelling Unit|2026",
+  "old": 5333.0,
+  "new": 4927.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Lulu Island West Sewerage Area (LIWSA)|Townhouse Dwelling Unit|2027",
+  "old": 5943.0,
+  "new": 5469.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Lulu Island West Sewerage Area (LIWSA)|Apartment Dwelling Unit|2026",
+  "old": 3806.0,
+  "new": 3516.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Lulu Island West Sewerage Area (LIWSA)|Apartment Dwelling Unit|2027",
+  "old": 4241.0,
+  "new": 3903.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Lulu Island West Sewerage Area (LIWSA)|Non-Residential (per square foot)|2026",
+  "old": 2.76,
+  "new": 2.55,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Lulu Island West Sewerage Area (LIWSA)|Non-Residential (per square foot)|2027",
+  "old": 3.08,
+  "new": 2.83,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Fraser Sewerage Area (FSA)|Residential Lot Development Unit|2026",
+  "old": 12311.0,
+  "new": 11443.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Fraser Sewerage Area (FSA)|Residential Lot Development Unit|2027",
+  "old": 13613.0,
+  "new": 12601.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Fraser Sewerage Area (FSA)|Townhouse Dwelling Unit|2026",
+  "old": 10775.0,
+  "new": 10015.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Fraser Sewerage Area (FSA)|Townhouse Dwelling Unit|2027",
+  "old": 11914.0,
+  "new": 11028.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Fraser Sewerage Area (FSA)|Apartment Dwelling Unit|2026",
+  "old": 7855.0,
+  "new": 7302.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Fraser Sewerage Area (FSA)|Apartment Dwelling Unit|2027",
+  "old": 8686.0,
+  "new": 8040.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Fraser Sewerage Area (FSA)|Non-Residential (per square foot)|2026",
+  "old": 5.82,
+  "new": 5.41,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Liquid Waste DCC|Fraser Sewerage Area (FSA)|Non-Residential (per square foot)|2027",
+  "old": 6.43,
+  "new": 5.95,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Parkland DCC|Assist Factor|2026",
+  "old": "",
+  "new": 50.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Parkland DCC|Assist Factor|2026",
+  "old": "",
+  "new": 75.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Parkland DCC|Assist Factor|2027",
+  "old": "",
+  "new": 37.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Parkland DCC|Residential Lot Development Unit|2026",
+  "old": 981.0,
+  "new": 491.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Parkland DCC|Residential Lot Development Unit|2027",
+  "old": 1943.0,
+  "new": 1237.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Parkland DCC|Townhouse Dwelling Unit|2026",
+  "old": 884.0,
+  "new": 442.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Parkland DCC|Townhouse Dwelling Unit|2027",
+  "old": 1751.0,
+  "new": 1114.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Parkland DCC|Apartment Dwelling Unit|2026",
+  "old": 606.0,
+  "new": 303.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Parkland DCC|Apartment Dwelling Unit|2027",
+  "old": 1199.0,
+  "new": 763.0,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Parkland DCC|Non-Residential (per square foot)|2026",
+  "old": 0.48,
+  "new": 0.24,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Parkland DCC|Non-Residential (per square foot)|2027",
+  "old": 0.94,
+  "new": 0.6,
+  "status": "CHANGED",
+  "note": "High-confidence structural parse.",
+  "applied": true,
+  "appliedAt": "2026-10-09 19:18"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Vancouver Sewerage Area (VSA)|Residential Lot Development Unit|2026",
+  "old": "",
+  "new": 29196.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Vancouver Sewerage Area (VSA)|Residential Lot Development Unit|2026",
+  "old": "",
+  "new": 21941.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Vancouver Sewerage Area (VSA)|Residential Lot Development Unit|2027",
+  "old": "",
+  "new": 28322.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Vancouver Sewerage Area (VSA)|Townhouse Dwelling Unit|2026",
+  "old": "",
+  "new": 26406.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Vancouver Sewerage Area (VSA)|Townhouse Dwelling Unit|2026",
+  "old": "",
+  "new": 19874.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Vancouver Sewerage Area (VSA)|Townhouse Dwelling Unit|2027",
+  "old": "",
+  "new": 25625.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Vancouver Sewerage Area (VSA)|Apartment Dwelling Unit|2026",
+  "old": "",
+  "new": 17873.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Vancouver Sewerage Area (VSA)|Apartment Dwelling Unit|2026",
+  "old": "",
+  "new": 13392.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Vancouver Sewerage Area (VSA)|Apartment Dwelling Unit|2027",
+  "old": "",
+  "new": 17323.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Vancouver Sewerage Area (VSA)|Non-Residential (per square foot)|2026",
+  "old": "",
+  "new": 14.37,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Vancouver Sewerage Area (VSA)|Non-Residential (per square foot)|2026",
+  "old": "",
+  "new": 10.84,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Vancouver Sewerage Area (VSA)|Non-Residential (per square foot)|2027",
+  "old": "",
+  "new": 13.94,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|North Shore Sewerage Area (NSSA)|Residential Lot Development Unit|2026",
+  "old": "",
+  "new": 28385.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|North Shore Sewerage Area (NSSA)|Residential Lot Development Unit|2026",
+  "old": "",
+  "new": 21203.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|North Shore Sewerage Area (NSSA)|Residential Lot Development Unit|2027",
+  "old": "",
+  "new": 27487.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|North Shore Sewerage Area (NSSA)|Townhouse Dwelling Unit|2026",
+  "old": "",
+  "new": 25748.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|North Shore Sewerage Area (NSSA)|Townhouse Dwelling Unit|2026",
+  "old": "",
+  "new": 19277.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|North Shore Sewerage Area (NSSA)|Townhouse Dwelling Unit|2027",
+  "old": "",
+  "new": 24947.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|North Shore Sewerage Area (NSSA)|Apartment Dwelling Unit|2026",
+  "old": "",
+  "new": 17548.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|North Shore Sewerage Area (NSSA)|Apartment Dwelling Unit|2026",
+  "old": "",
+  "new": 13099.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|North Shore Sewerage Area (NSSA)|Apartment Dwelling Unit|2027",
+  "old": "",
+  "new": 16988.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|North Shore Sewerage Area (NSSA)|Non-Residential (per square foot)|2026",
+  "old": "",
+  "new": 14.04,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|North Shore Sewerage Area (NSSA)|Non-Residential (per square foot)|2026",
+  "old": "",
+  "new": 10.54,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|North Shore Sewerage Area (NSSA)|Non-Residential (per square foot)|2027",
+  "old": "",
+  "new": 13.6,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Lulu Island West Sewerage Area (LIWSA)|Residential Lot Development Unit|2026",
+  "old": "",
+  "new": 24058.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Lulu Island West Sewerage Area (LIWSA)|Residential Lot Development Unit|2026",
+  "old": "",
+  "new": 17126.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Lulu Island West Sewerage Area (LIWSA)|Residential Lot Development Unit|2027",
+  "old": "",
+  "new": 23077.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Lulu Island West Sewerage Area (LIWSA)|Townhouse Dwelling Unit|2026",
+  "old": "",
+  "new": 21423.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Lulu Island West Sewerage Area (LIWSA)|Townhouse Dwelling Unit|2026",
+  "old": "",
+  "new": 15208.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Lulu Island West Sewerage Area (LIWSA)|Townhouse Dwelling Unit|2027",
+  "old": "",
+  "new": 20537.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Lulu Island West Sewerage Area (LIWSA)|Apartment Dwelling Unit|2026",
+  "old": "",
+  "new": 14906.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Lulu Island West Sewerage Area (LIWSA)|Apartment Dwelling Unit|2026",
+  "old": "",
+  "new": 10610.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Lulu Island West Sewerage Area (LIWSA)|Apartment Dwelling Unit|2027",
+  "old": "",
+  "new": 14296.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Lulu Island West Sewerage Area (LIWSA)|Non-Residential (per square foot)|2026",
+  "old": "",
+  "new": 11.43,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Lulu Island West Sewerage Area (LIWSA)|Non-Residential (per square foot)|2026",
+  "old": "",
+  "new": 8.09,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Lulu Island West Sewerage Area (LIWSA)|Non-Residential (per square foot)|2027",
+  "old": "",
+  "new": 10.94,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Fraser Sewerage Area (FSA)|Residential Lot Development Unit|2026",
+  "old": "",
+  "new": 30218.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Fraser Sewerage Area (FSA)|Residential Lot Development Unit|2026",
+  "old": "",
+  "new": 22886.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Fraser Sewerage Area (FSA)|Residential Lot Development Unit|2027",
+  "old": "",
+  "new": 29370.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Fraser Sewerage Area (FSA)|Townhouse Dwelling Unit|2026",
+  "old": "",
+  "new": 26865.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Fraser Sewerage Area (FSA)|Townhouse Dwelling Unit|2026",
+  "old": "",
+  "new": 20296.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Fraser Sewerage Area (FSA)|Townhouse Dwelling Unit|2027",
+  "old": "",
+  "new": 26096.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Fraser Sewerage Area (FSA)|Apartment Dwelling Unit|2026",
+  "old": "",
+  "new": 18956.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Fraser Sewerage Area (FSA)|Apartment Dwelling Unit|2026",
+  "old": "",
+  "new": 14396.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Fraser Sewerage Area (FSA)|Apartment Dwelling Unit|2027",
+  "old": "",
+  "new": 18433.0,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Fraser Sewerage Area (FSA)|Non-Residential (per square foot)|2026",
+  "old": "",
+  "new": 14.49,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Fraser Sewerage Area (FSA)|Non-Residential (per square foot)|2026",
+  "old": "",
+  "new": 10.95,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "metro_van_dcc",
+  "field": "Total Regional DCC|Fraser Sewerage Area (FSA)|Non-Residential (per square foot)|2027",
+  "old": "",
+  "new": 14.06,
+  "status": "NEW",
+  "note": "Field not previously tracked."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "vancouver_dcl",
+  "field": "(fetch)",
+  "old": "",
+  "new": "",
+  "status": "FETCH FAILED",
+  "note": "PermissionError: robots.txt disallows https://vancouver.ca/home-property-development/development-cost-levies.aspx  URL: https://vancouver.ca/home-property-development/development-cost-levies.aspx"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "vancouver_dcl_bulletin",
+  "field": "(fetch)",
+  "old": "",
+  "new": "",
+  "status": "FETCH FAILED",
+  "note": "PermissionError: robots.txt disallows https://guidelines.vancouver.ca/bulletins/bulletin-development-cost-levies.pdf  URL: https://guidelines.vancouver.ca/bulletins/bulletin-development-cost-levies.pdf"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "vancouver_opendata_dcl_areas",
+  "field": "(fetch)",
+  "old": "",
+  "new": "",
+  "status": "FETCH FAILED",
+  "note": "PermissionError: robots.txt disallows https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/development-cost-levy-dcl-areas/records  URL: https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/development-cost-levy-dcl-areas/records"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "surrey_dcc",
+  "field": "(fetch)",
+  "old": "",
+  "new": "",
+  "status": "FETCH FAILED",
+  "note": "PermissionError: robots.txt disallows https://www.surrey.ca/renovating-building-development/engineering-infrastructure/development-cost-charges  URL: https://www.surrey.ca/renovating-building-development/engineering-infrastructure/development-cost-charges"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "burnaby_dcc",
+  "field": "(fetch)",
+  "old": "",
+  "new": "",
+  "status": "FETCH FAILED",
+  "note": "PermissionError: robots.txt disallows https://www.burnaby.ca/services-and-payments/building-and-development/development-cost-charges  URL: https://www.burnaby.ca/services-and-payments/building-and-development/development-cost-charges"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "richmond_dcc",
+  "field": "(fetch)",
+  "old": "",
+  "new": "",
+  "status": "FETCH FAILED",
+  "note": "HTTPError: 404 Client Error: Not Found for url: https://www.richmond.ca/plandev/planning2/developmentcostcharges.htm  URL: https://www.richmond.ca/plandev/planning2/developmentcostcharges.htm"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "new_west_dcc",
+  "field": "(fetch)",
+  "old": "",
+  "new": "",
+  "status": "FETCH FAILED",
+  "note": "HTTPError: 404 Client Error: Not Found for url: https://www.newwestcity.ca/business-and-development/development-cost-charges  URL: https://www.newwestcity.ca/business-and-development/development-cost-charges"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "coquitlam_dcc",
+  "field": "(fetch)",
+  "old": "",
+  "new": "",
+  "status": "FETCH FAILED",
+  "note": "HTTPError: 404 Client Error: Not Found for url: https://www.coquitlam.ca/291/Development-Cost-Charges  URL: https://www.coquitlam.ca/291/Development-Cost-Charges"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "translink_dcc",
+  "field": "(fetch)",
+  "old": "",
+  "new": "",
+  "status": "FETCH FAILED",
+  "note": "HTTPError: 404 Client Error: Page not found for url: https://www.translink.ca/about-us/doing-business-with-translink/development-cost-charges  URL: https://www.translink.ca/about-us/doing-business-with-translink/development-cost-charges"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "victoria_dcc",
+  "field": "(fetch)",
+  "old": "",
+  "new": "",
+  "status": "FETCH FAILED",
+  "note": "HTTPError: 404 Client Error: Not Found for url: https://www.victoria.ca/city-government/bylaws/development-cost-charges  URL: https://www.victoria.ca/city-government/bylaws/development-cost-charges"
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "courtenay_dcc",
+  "field": "(low-confidence rates)",
+  "old": "",
+  "new": 4,
+  "status": "NEEDS REVIEW",
+  "note": "4 figures parsed at low confidence. Open https://www.courtenay.ca/dcc and verify by hand."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "courtenay_dcc",
+  "field": "(warning)",
+  "old": "",
+  "new": "",
+  "status": "INFO",
+  "note": "Generic parser: 4 candidate figures. NEEDS REVIEW -- no structural parsing available for this source. Consider writing a dedicated adapter."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "nanaimo_dcc",
+  "field": "(warning)",
+  "old": "",
+  "new": "",
+  "status": "INFO",
+  "note": "Generic parser: 0 candidate figures. NEEDS REVIEW -- no structural parsing available for this source. Consider writing a dedicated adapter."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "nanaimo_dcc",
+  "field": "(warning)",
+  "old": "",
+  "new": "",
+  "status": "INFO",
+  "note": "No fee-like figures found; rates may be in a linked PDF."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "parksville_dcc",
+  "field": "(warning)",
+  "old": "",
+  "new": "",
+  "status": "INFO",
+  "note": "Generic parser: 0 candidate figures. NEEDS REVIEW -- no structural parsing available for this source. Consider writing a dedicated adapter."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "parksville_dcc",
+  "field": "(warning)",
+  "old": "",
+  "new": "",
+  "status": "INFO",
+  "note": "No fee-like figures found; rates may be in a linked PDF."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "langford_dcc",
+  "field": "(low-confidence rates)",
+  "old": "",
+  "new": 49,
+  "status": "NEEDS REVIEW",
+  "note": "49 figures parsed at low confidence. Open https://langford.ca/wp-content/uploads/2020/10/DCC-Summary-Sheet.pdf and verify by hand."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "langford_dcc",
+  "field": "(warning)",
+  "old": "",
+  "new": "",
+  "status": "INFO",
+  "note": "Extracted 49 candidate rows from PDF at LOW confidence. PDF layout parsing is unreliable -- verify every figure by hand."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "colwood_dcc",
+  "field": "(low-confidence rates)",
+  "old": "",
+  "new": 38,
+  "status": "NEEDS REVIEW",
+  "note": "38 figures parsed at low confidence. Open https://www.colwood.ca/sites/default/files/2025-01/DEVELOPMENT%20COST%20CHARGES%20(January%202025).pdf and verify by hand."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "colwood_dcc",
+  "field": "(warning)",
+  "old": "",
+  "new": "",
+  "status": "INFO",
+  "note": "Extracted 38 candidate rows from PDF at LOW confidence. PDF layout parsing is unreliable -- verify every figure by hand."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "comox_dcc",
+  "field": "(warning)",
+  "old": "",
+  "new": "",
+  "status": "INFO",
+  "note": "Generic parser: 0 candidate figures. NEEDS REVIEW -- no structural parsing available for this source. Consider writing a dedicated adapter."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "comox_dcc",
+  "field": "(warning)",
+  "old": "",
+  "new": "",
+  "status": "INFO",
+  "note": "No fee-like figures found; rates may be in a linked PDF."
+ },
+ {
+  "ts": "2026-10-09 19:18",
+  "source": "duncan_dcc",
+  "field": "(warning)",
+  "old": "",
+  "new": "",
+  "status": "INFO",
+  "note": "Generic parser: 0 candidate figures. NEEDS REVIEW -- no structural parsing available for this source. Consider writing a dedicated adapter."
+ },
+ {
+  "ts": "2026-10-09 19:18",
   "source": "duncan_dcc",
   "field": "(warning)",
   "old": "",
